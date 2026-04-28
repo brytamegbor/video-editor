@@ -1,3 +1,5 @@
+---
+
 # Privacy Policy for Nully
 
 **Last Updated:** April 28, 2026
