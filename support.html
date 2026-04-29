@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nully — Support</title>
+  <meta name="description" content="Get help with Nully, the powerful mobile video editor. Browse FAQs, troubleshoot issues, and contact our support team.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --primary: #010215;
+      --primary-alt: #0A1E3F;
+      --secondary: #243A54;
+      --secondary2: #D1E3F3;
+      --purple: #9F05C8;
+      --blue: #44BCDF;
+      --cyan: #E57357;
+      --yellow: #E5C554;
+      --green: #52D173;
+      --surface: rgba(36, 58, 84, 0.15);
+      --glass: rgba(36, 58, 84, 0.12);
+      --border: rgba(209, 227, 243, 0.08);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: var(--primary);
+      color: var(--secondary2);
+      line-height: 1.6;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* Background ambient glow */
+    body::before {
+      content: '';
+      position: fixed;
+      top: -40%; left: -20%;
+      width: 80vw; height: 80vw;
+      background: radial-gradient(circle, rgba(159, 5, 200, 0.06) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+    body::after {
+      content: '';
+      position: fixed;
+      bottom: -30%; right: -10%;
+      width: 60vw; height: 60vw;
+      background: radial-gradient(circle, rgba(68, 188, 223, 0.05) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    a { color: var(--blue); text-decoration: none; transition: color 0.2s; }
+    a:hover { color: var(--purple); }
+
+    .container { max-width: 800px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 1; }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      background: rgba(1, 2, 21, 0.75);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 0;
+    }
+    nav .container { display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-size: 22px; font-weight: 800; letter-spacing: -0.5px; }
+    .logo span { background: linear-gradient(135deg, var(--blue), var(--purple)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    nav ul { list-style: none; display: flex; gap: 28px; }
+    nav ul li a { color: rgba(209, 227, 243, 0.6); font-size: 14px; font-weight: 500; transition: color 0.2s; }
+    nav ul li a:hover { color: var(--secondary2); }
+
+    /* ── HERO ── */
+    .hero {
+      text-align: center;
+      padding: 100px 0 60px;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--glass);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 8px 20px;
+      font-size: 13px; font-weight: 500;
+      color: var(--blue);
+      margin-bottom: 28px;
+    }
+    .hero-badge .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); animation: pulse 2s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+    .hero h1 {
+      font-size: clamp(36px, 6vw, 56px);
+      font-weight: 800;
+      letter-spacing: -1.5px;
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+    .hero h1 .gradient {
+      background: linear-gradient(135deg, var(--blue), var(--purple));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    .hero p {
+      font-size: 18px;
+      color: rgba(209, 227, 243, 0.5);
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    /* ── SECTION ── */
+    section { padding: 60px 0; }
+    .section-label {
+      font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px;
+      color: var(--purple);
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-size: 28px; font-weight: 700; letter-spacing: -0.5px;
+      margin-bottom: 36px;
+    }
+
+    /* ── QUICK HELP CARDS ── */
+    .help-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .help-card {
+      background: var(--glass);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 24px;
+      transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+      cursor: default;
+    }
+    .help-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(159, 5, 200, 0.25);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+    }
+    .help-icon {
+      width: 44px; height: 44px;
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px;
+      margin-bottom: 16px;
+    }
+    .help-card h3 { font-size: 16px; font-weight: 600; margin-bottom: 8px; color: #fff; }
+    .help-card p { font-size: 14px; color: rgba(209, 227, 243, 0.5); line-height: 1.5; }
+
+    /* ── FAQ ── */
+    .faq-list { display: flex; flex-direction: column; gap: 12px; }
+    .faq-item {
+      background: var(--glass);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      transition: border-color 0.3s;
+    }
+    .faq-item.active { border-color: rgba(68, 188, 223, 0.2); }
+    .faq-question {
+      width: 100%; padding: 20px 24px;
+      background: none; border: none; cursor: pointer;
+      display: flex; align-items: center; justify-content: space-between;
+      color: #fff; font-size: 15px; font-weight: 600;
+      font-family: inherit; text-align: left;
+    }
+    .faq-question:hover { color: var(--blue); }
+    .faq-chevron {
+      width: 20px; height: 20px;
+      transition: transform 0.3s;
+      flex-shrink: 0; margin-left: 16px;
+      color: rgba(209, 227, 243, 0.3);
+    }
+    .faq-item.active .faq-chevron { transform: rotate(180deg); color: var(--blue); }
+    .faq-answer {
+      max-height: 0; overflow: hidden;
+      transition: max-height 0.35s ease, padding 0.35s ease;
+    }
+    .faq-item.active .faq-answer { max-height: 300px; }
+    .faq-answer-inner {
+      padding: 0 24px 20px;
+      font-size: 14px;
+      color: rgba(209, 227, 243, 0.55);
+      line-height: 1.7;
+    }
+
+    /* ── CONTACT ── */
+    .contact-wrapper {
+      background: var(--glass);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 40px;
+    }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+    .contact-info h3 { font-size: 20px; font-weight: 700; color: #fff; margin-bottom: 16px; }
+    .contact-info p { font-size: 14px; color: rgba(209, 227, 243, 0.5); margin-bottom: 24px; line-height: 1.7; }
+    .contact-method {
+      display: flex; align-items: center; gap: 14px;
+      padding: 14px 0;
+      border-top: 1px solid var(--border);
+    }
+    .contact-method:first-of-type { border-top: none; }
+    .cm-icon {
+      width: 40px; height: 40px;
+      border-radius: 10px;
+      background: rgba(68, 188, 223, 0.1);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+    }
+    .cm-label { font-size: 12px; color: rgba(209, 227, 243, 0.4); }
+    .cm-value { font-size: 14px; font-weight: 500; color: #fff; }
+
+    /* Form */
+    .contact-form { display: flex; flex-direction: column; gap: 14px; }
+    .form-group { display: flex; flex-direction: column; gap: 6px; }
+    .form-group label { font-size: 13px; font-weight: 500; color: rgba(209, 227, 243, 0.5); }
+    .form-group input, .form-group textarea, .form-group select {
+      background: rgba(1, 2, 21, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 16px;
+      font-family: inherit; font-size: 14px;
+      color: var(--secondary2);
+      transition: border-color 0.2s;
+      outline: none;
+      resize: vertical;
+    }
+    .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+      border-color: rgba(68, 188, 223, 0.4);
+    }
+    .form-group select option { background: var(--primary); }
+    .btn-submit {
+      padding: 14px 28px;
+      background: linear-gradient(135deg, var(--blue), var(--purple));
+      border: none; border-radius: 10px;
+      color: #fff; font-family: inherit;
+      font-size: 14px; font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn-submit:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(159, 5, 200, 0.3);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 40px 0;
+      margin-top: 40px;
+    }
+    .footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+    .footer-inner p { font-size: 13px; color: rgba(209, 227, 243, 0.3); }
+    .footer-links { display: flex; gap: 24px; }
+    .footer-links a { font-size: 13px; color: rgba(209, 227, 243, 0.4); }
+    .footer-links a:hover { color: var(--secondary2); }
+
+    /* ── ANIMATIONS ── */
+    .fade-up {
+      opacity: 0; transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 640px) {
+      .contact-grid { grid-template-columns: 1fr; }
+      .contact-wrapper { padding: 24px; }
+      nav ul { gap: 16px; }
+      .hero { padding: 70px 0 40px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="container">
+      <div class="logo"><span>Nully</span></div>
+      <ul>
+        <li><a href="#help">Help</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <div class="hero-badge"><span class="dot"></span> Support Center</div>
+      <h1>How can we<br><span class="gradient">help you?</span></h1>
+      <p>Find answers, troubleshoot issues, or reach out to our team. We're here to make your editing experience seamless.</p>
+    </div>
+  </header>
+
+  <!-- Quick Help -->
+  <section id="help">
+    <div class="container">
+      <p class="section-label fade-up">Quick Help</p>
+      <h2 class="section-title fade-up">Common Topics</h2>
+      <div class="help-grid">
+        <div class="help-card fade-up">
+          <div class="help-icon" style="background:rgba(68,188,223,0.1)">🎬</div>
+          <h3>Getting Started</h3>
+          <p>Import videos, create a project, and start editing with trim, speed, and convert tools.</p>
+        </div>
+        <div class="help-card fade-up">
+          <div class="help-icon" style="background:rgba(159,5,200,0.1)">✂️</div>
+          <h3>Editing &amp; Effects</h3>
+          <p>Add text overlays, transitions, adjust speed, and apply effects to your clips.</p>
+        </div>
+        <div class="help-card fade-up">
+          <div class="help-icon" style="background:rgba(82,209,115,0.1)">💾</div>
+          <h3>Export &amp; Sharing</h3>
+          <p>Export in multiple formats and resolutions. Your projects are saved locally on your device.</p>
+        </div>
+        <div class="help-card fade-up">
+          <div class="help-icon" style="background:rgba(229,197,84,0.1)">🔒</div>
+          <h3>Privacy &amp; Data</h3>
+          <p>Your videos never leave your device. We only collect anonymous analytics to improve the app.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="container">
+      <p class="section-label fade-up">FAQ</p>
+      <h2 class="section-title fade-up">Frequently Asked Questions</h2>
+      <div class="faq-list fade-up">
+
+        <div class="faq-item">
+          <button class="faq-question" id="faq-btn-1">
+            What video formats does Nully support?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner">Nully supports most common video formats including MP4, MOV, AVI, MKV, and WebM. You can also convert between formats using the Quick Action Convert tool on the home screen.</div></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" id="faq-btn-2">
+            Is there a file size limit?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes, projects have a combined file size limit of 500 MB for imported video files. This ensures smooth editing performance on mobile devices. You can split larger projects into smaller parts.</div></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" id="faq-btn-3">
+            Where are my projects saved?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner">All projects are saved locally on your device. Nully never uploads your video files or project data to any external server. You can manage or delete projects from the home screen.</div></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" id="faq-btn-4">
+            Can I add text and overlays to my videos?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes! Nully includes a full-featured text overlay editor. You can customize fonts, colors, size, position, animations (fade in, scale, bounce), and more. Text overlays are rendered as part of your final export.</div></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" id="faq-btn-5">
+            Does Nully collect my personal data?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner">Nully collects only anonymous usage analytics (via Firebase) and crash reports to help us improve the app. We never access your videos, photos, or personal files beyond what's needed for editing. See our <a href="PRIVACY_POLICY.md">Privacy Policy</a> for full details.</div></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" id="faq-btn-6">
+            The app crashes or freezes during export. What should I do?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner">Try these steps: (1) Make sure you have enough free storage on your device. (2) Close other apps to free up memory. (3) Try exporting at a lower resolution. (4) Restart the app and try again. If the issue persists, contact us with your device model and OS version.</div></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" id="faq-btn-7">
+            How do I add transitions between clips?
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner">In the editor timeline, tap the junction between two clips. A transition picker will appear where you can choose from available transitions. Each transition can be customized and is fully reversible with undo/redo.</div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <p class="section-label fade-up">Get in Touch</p>
+      <h2 class="section-title fade-up">Contact Support</h2>
+      <div class="contact-wrapper fade-up">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>We'd love to hear from you</h3>
+            <p>Whether it's a bug report, feature request, or general question — reach out and we'll get back to you as soon as possible.</p>
+            <div class="contact-method">
+              <div class="cm-icon">✉️</div>
+              <div><div class="cm-label">Email</div><div class="cm-value">brytamegbor@gmail.com</div></div>
+            </div>
+            <div class="contact-method">
+              <div class="cm-icon">⏱️</div>
+              <div><div class="cm-label">Response Time</div><div class="cm-value">Within 48 hours</div></div>
+            </div>
+          </div>
+          <form class="contact-form" id="support-form" onsubmit="handleSubmit(event)">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="your@email.com" required>
+            </div>
+            <div class="form-group">
+              <label for="topic">Topic</label>
+              <select id="topic" required>
+                <option value="" disabled selected>Select a topic</option>
+                <option value="bug">Bug Report</option>
+                <option value="feature">Feature Request</option>
+                <option value="export">Export Issue</option>
+                <option value="account">Account &amp; Privacy</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="4" placeholder="Describe your issue or question..." required></textarea>
+            </div>
+            <button type="submit" class="btn-submit" id="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <p>&copy; 2026 Nully. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="PRIVACY_POLICY.md">Privacy Policy</a>
+          <a href="mailto:brytamegbor@gmail.com">Email Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement;
+        const wasActive = item.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+        if (!wasActive) item.classList.add('active');
+      });
+    });
+
+    // Scroll reveal
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+    // Form handler
+    function handleSubmit(e) {
+      e.preventDefault();
+      const email = document.getElementById('email').value;
+      const topic = document.getElementById('topic').value;
+      const message = document.getElementById('message').value;
+
+      const subject = encodeURIComponent(`Nully Support: ${topic}`);
+      const body = encodeURIComponent(`From: ${email}\nTopic: ${topic}\n\n${message}`);
+      window.location.href = `mailto:brytamegbor@gmail.com?subject=${subject}&body=${body}`;
+
+      const btn = document.getElementById('submit-btn');
+      btn.textContent = 'Opening mail client...';
+      setTimeout(() => { btn.textContent = 'Send Message'; }, 3000);
+    }
+  </script>
+</body>
+</html>
