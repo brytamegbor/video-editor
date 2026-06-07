@@ -1,0 +1,12 @@
+[
+    {
+        "id": "octgrams",
+        "name": "Octgrams",
+        "kernel": "fx_octgrams",
+        "category": "downloadable",
+        "defaultIntensity": 0.8,
+        "accentHex": "#3FA9F5",
+        "metalUrl": "https://brytamegbor.github.io/video-editor/effects/octgrams/octgrams.metal",
+        "glslUrl": "https://brytamegbor.github.io/video-editor/effects/octgrams/octgrams.glsl"
+    }
+]
