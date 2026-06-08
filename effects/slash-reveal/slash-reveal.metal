@@ -2,14 +2,14 @@
 using namespace metal;
 
 // ---------------------------------------------------------------------------
-// Slash Reveal — a bright diagonal slash sweeps across the frame; ahead of the
-// cut the image is reflected across the moving slash line (a mirror seam),
-// behind it the true frame shows through, with a hot light streak riding the
-// edge. CapCut-style "Slash" reveal, looped back and forth.
+// Slash Reveal — a bright blade slashes the frame along the bottom-left -> top-
+// right "/" diagonal, cutting the top layer open to reveal what's beneath. The
+// revealed (beneath) side is an offset mirror of the frame; a hot streak rides
+// the cut. CapCut-style "Slash" reveal, looped (cut opens, then seals, repeat).
 //
 //   * Reads the live video frame from inTex (texture 0) — the iChannel0 analogue.
-//   * Mirrored backing: the hidden side is the frame reflected across the slash.
-//   * Continuous loop: a triangle wave sweeps the slash so it never pops.
+//   * `n` is the slash normal chosen so the seam reads as "/" on screen even
+//     though Metal's grid is y-down (gid.y = 0 at the top).
 //   * `intensity` cross-fades the whole reveal in; at 0 the frame is untouched.
 // ---------------------------------------------------------------------------
 
@@ -36,27 +36,31 @@ kernel void fx_slash_reveal(
     float  t   = u.time;
     float  k   = u.intensity;
 
-    // Slash geometry: a line at -30deg; `nrm` is its normal, `proj` the signed
-    // distance of this pixel from the frame centre along that normal.
-    float  ang  = -0.5235988;                     // radians(-30)
-    float2 dir  = float2(cos(ang), sin(ang));
-    float2 nrm  = float2(-dir.y, dir.x);
-    float  proj = dot(uv - 0.5, nrm);
+    // Seam runs bottom-left -> top-right ("/"); `n` is its normal. On Metal's
+    // y-down grid that screen diagonal corresponds to normal (-1,-1).
+    float2 n = normalize(float2(-1.0, -1.0));
+    float  d = dot(uv - 0.5, n);                 // signed distance from centre
 
-    // Sweep the slash position across the frame and back (triangle wave -> no pop).
-    float tri = 1.0 - abs(fract(t * 0.5) * 2.0 - 1.0);   // 0..1..0
-    float sp  = (tri * 2.0 - 1.0) * 0.5;                 // -0.5..0.5..-0.5
+    // Sweep the cut across and back so the loop never pops. Starts fully closed
+    // (all top layer), opens to fully revealed, then seals.
+    float tri = abs(fract(t * 0.5) * 2.0 - 1.0); // 1 -> 0 -> 1
+    float sp  = (tri * 2.0 - 1.0) * 0.72;        // +0.72 (closed) .. -0.72 (open)
 
-    float  side = step(sp, proj);                        // 1 ahead of the cut
-    float2 mir  = clamp(uv - 2.0 * (proj - sp) * nrm, 0.0, 1.0);  // reflect across slash
+    float px = 1.0 / res.y;
+    float aa = 1.5 * px;
 
-    float4 srcN = inTex.sample(s, uv);
-    float3 mC   = inTex.sample(s, mir).rgb;
-    float3 col  = mix(srcN.rgb, mC, side);
+    float4 srcN   = inTex.sample(s, uv);
+    float  reveal = smoothstep(sp - aa, sp + aa, d);            // 1 = cut open here
 
-    // Hot light streak riding the cut.
-    float streak = smoothstep(0.05, 0.0, abs(proj - sp));
-    col += float3(1.0, 0.95, 0.9) * streak * (0.7 + 0.3 * sin(t * 25.0));
+    // What's beneath: an offset horizontal mirror of the frame.
+    float2 bUV     = clamp(float2(1.0 - uv.x, uv.y) - n * 0.015, 0.0, 1.0);
+    float3 beneath = inTex.sample(s, bUV).rgb;
+
+    float3 col = mix(srcN.rgb, beneath, reveal);
+
+    // Hot blade streak riding the cut.
+    float streak = smoothstep(0.02, 0.0, abs(d - sp));
+    col += float3(1.0, 0.96, 0.9) * streak * (0.75 + 0.25 * sin(t * 22.0));
 
     float3 outc = mix(srcN.rgb, col, k);
     outTex.write(float4(outc, srcN.a), gid);
