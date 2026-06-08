@@ -1,12 +1,52 @@
 [
     {
-        "id": "octgrams",
-        "name": "Octgrams",
-        "kernel": "fx_octgrams",
+        "id": "zoom-lens",
+        "name": "Zoom Lens",
+        "kernel": "fx_zoom_lens",
         "category": "downloadable",
-        "defaultIntensity": 0.8,
-        "accentHex": "#3FA9F5",
-        "metalUrl": "https://brytamegbor.github.io/video-editor/effects/octgrams/octgrams.metal",
-        "glslUrl": "https://brytamegbor.github.io/video-editor/effects/octgrams/octgrams.glsl"
+        "defaultIntensity": 0.6,
+        "accentHex": "#FF7A00",
+        "metalUrl": "https://brytamegbor.github.io/video-editor/effects/zoom-lens/zoom-lens.metal",
+        "glslUrl": "https://brytamegbor.github.io/video-editor/effects/zoom-lens/zoom-lens.glsl"
+    },
+    {
+        "id": "slash-reveal",
+        "name": "Slash Reveal",
+        "kernel": "fx_slash_reveal",
+        "category": "downloadable",
+        "defaultIntensity": 0.7,
+        "accentHex": "#FF2D55",
+        "metalUrl": "https://brytamegbor.github.io/video-editor/effects/slash-reveal/slash-reveal.metal",
+        "glslUrl": "https://brytamegbor.github.io/video-editor/effects/slash-reveal/slash-reveal.glsl"
+    },
+    {
+        "id": "canvas-flip",
+        "name": "Canvas Flip",
+        "kernel": "fx_canvas_flip",
+        "category": "downloadable",
+        "defaultIntensity": 0.6,
+        "accentHex": "#5E5CE6",
+        "metalUrl": "https://brytamegbor.github.io/video-editor/effects/canvas-flip/canvas-flip.metal",
+        "glslUrl": "https://brytamegbor.github.io/video-editor/effects/canvas-flip/canvas-flip.glsl"
+    },
+    {
+        "id": "camera-focus",
+        "name": "Camera Focus",
+        "kernel": "fx_camera_focus",
+        "category": "downloadable",
+        "defaultIntensity": 0.6,
+        "accentHex": "#FFD60A",
+        "metalUrl": "https://brytamegbor.github.io/video-editor/effects/camera-focus/camera-focus.metal",
+        "glslUrl": "https://brytamegbor.github.io/video-editor/effects/camera-focus/camera-focus.glsl"
+    },
+    {
+        "id": "spin-shake",
+        "name": "Spin & Shake",
+        "kernel": "fx_spin_shake",
+        "category": "downloadable",
+        "defaultIntensity": 0.5,
+        "accentHex": "#BF5AF2",
+        "metalUrl": "https://brytamegbor.github.io/video-editor/effects/spin-shake/spin-shake.metal",
+        "glslUrl": "https://brytamegbor.github.io/video-editor/effects/spin-shake/spin-shake.glsl"
     }
 ]
