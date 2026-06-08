@@ -10,16 +10,6 @@
         "glslUrl": "https://brytamegbor.github.io/video-editor/effects/zoom-lens/zoom-lens.glsl"
     },
     {
-        "id": "slash-reveal",
-        "name": "Slash Reveal",
-        "kernel": "fx_slash_reveal",
-        "category": "downloadable",
-        "defaultIntensity": 0.7,
-        "accentHex": "#FF2D55",
-        "metalUrl": "https://brytamegbor.github.io/video-editor/effects/slash-reveal/slash-reveal.metal",
-        "glslUrl": "https://brytamegbor.github.io/video-editor/effects/slash-reveal/slash-reveal.glsl"
-    },
-    {
         "id": "canvas-flip",
         "name": "Canvas Flip",
         "kernel": "fx_canvas_flip",
@@ -28,16 +18,6 @@
         "accentHex": "#5E5CE6",
         "metalUrl": "https://brytamegbor.github.io/video-editor/effects/canvas-flip/canvas-flip.metal",
         "glslUrl": "https://brytamegbor.github.io/video-editor/effects/canvas-flip/canvas-flip.glsl"
-    },
-    {
-        "id": "camera-focus",
-        "name": "Camera Focus",
-        "kernel": "fx_camera_focus",
-        "category": "downloadable",
-        "defaultIntensity": 0.6,
-        "accentHex": "#FFD60A",
-        "metalUrl": "https://brytamegbor.github.io/video-editor/effects/camera-focus/camera-focus.metal",
-        "glslUrl": "https://brytamegbor.github.io/video-editor/effects/camera-focus/camera-focus.glsl"
     },
     {
         "id": "spin-shake",
