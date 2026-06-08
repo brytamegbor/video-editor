@@ -14,9 +14,10 @@ using namespace metal;
 //        iTime       = u.time
 //   * GLSL `mod` reimplemented (Metal's fmod truncates toward zero, which
 //     breaks the negative-coordinate domain repetition `mod(pos-2,4)-2`).
-//   * The shader is a full-screen *generator* (it never read the input frame),
-//     so the final write BLENDS it over the video frame by `u.intensity` — that
-//     way the clip still shows through and the intensity slider does something.
+//   * Originally a pure generator; now the live video is the material the tunnel
+//     is built from: the octagon field refracts the frame (a rotating swirl) and
+//     relights it — dark in the gaps, video-bright on the glowing edges, with a
+//     thin neon rim. `u.intensity` fades from the clean clip to the full effect.
 //   * The `gTime` GLSL global is passed as a function argument instead.
 // ---------------------------------------------------------------------------
 
@@ -90,7 +91,7 @@ kernel void fx_octgrams(
     uint2 gid [[thread_position_in_grid]])
 {
     if (gid.x >= outTex.get_width() || gid.y >= outTex.get_height()) { return; }
-    constexpr sampler s(coord::pixel, address::clamp_to_edge, filter::linear);
+    constexpr sampler s(coord::normalized, address::clamp_to_edge, filter::linear);
 
     float2 fragCoord   = float2(gid) + float2(u.offsetX, u.offsetY);
     float2 iResolution = float2(u.width, u.height);
@@ -114,11 +115,21 @@ kernel void fx_octgrams(
         t += d * 0.55;
     }
 
-    float3 col = float3(ac * 0.02);
-    col += float3(0.0, 0.2 * abs(sin(iTime)), 0.5 + sin(iTime) * 0.2);
+    // --- The live video is the substrate the octagon tunnel is made of ---
+    float  glow = ac * 0.02;                  // raw structure brightness
+    float  g    = glow / (1.0 + glow);        // tonemapped to 0..1
+    float3 neon = float3(0.0, 0.2 * abs(sin(iTime)), 0.5 + sin(iTime) * 0.2);
 
-    // Blend the generated pattern over the actual video frame by intensity.
-    float4 src  = inTex.sample(s, fragCoord);
-    float3 outc = mix(src.rgb, col, u.intensity);
-    outTex.write(float4(outc, src.a), gid);
+    float2 baseUV = fragCoord / iResolution;
+    // Refract the frame through the rotating glass tunnel; the swirl comes from
+    // the (time-rotated) ray and ripples more where the structure is dense.
+    float2 distort = (ray.xy * 0.12 + p * g * 0.15) * u.intensity;
+    float4 clean   = inTex.sample(s, baseUV);
+    float4 vid     = inTex.sample(s, clamp(baseUV + distort, 0.0, 1.0));
+
+    // Relight the video by the field: dim in the gaps, video-bright on the
+    // glowing octagon edges, plus a thin neon rim.
+    float3 fx   = vid.rgb * (0.4 + g * 2.0) + g * neon;
+    float3 outc = mix(clean.rgb, clamp(fx, 0.0, 1.0), u.intensity);
+    outTex.write(float4(outc, clean.a), gid);
 }

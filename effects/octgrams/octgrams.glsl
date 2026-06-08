@@ -78,11 +78,21 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
         t += d * 0.55;
     }
 
-    vec3 col = vec3(ac * 0.02);
-    col += vec3(0.0, 0.2 * abs(sin(iTime)), 0.5 + sin(iTime) * 0.2);
+    // --- The live video is the substrate the octagon tunnel is made of ---
+    float glow = ac * 0.02;                    // raw structure brightness
+    float g    = glow / (1.0 + glow);          // tonemapped to 0..1
+    vec3  neon = vec3(0.0, 0.2 * abs(sin(iTime)), 0.5 + sin(iTime) * 0.2);
 
-    // Blend the generated pattern over the actual video frame by intensity.
-    vec4 src = texture(iChannel0, fragCoord / iResolution.xy);
-    vec3 outc = mix(src.rgb, col, iIntensity);
-    fragColor = vec4(outc, src.a);
+    vec2 baseUV = fragCoord / iResolution.xy;
+    // Refract the frame through the rotating glass tunnel; the swirl comes from
+    // the (time-rotated) ray and ripples more where the structure is dense.
+    vec2 distort = (ray.xy * 0.12 + p * g * 0.15) * iIntensity;
+    vec4 clean   = texture(iChannel0, baseUV);
+    vec4 vid     = texture(iChannel0, clamp(baseUV + distort, 0.0, 1.0));
+
+    // Relight the video by the field: dim in the gaps, video-bright on the
+    // glowing octagon edges, plus a thin neon rim.
+    vec3 fx   = vid.rgb * (0.4 + g * 2.0) + g * neon;
+    vec3 outc = mix(clean.rgb, clamp(fx, 0.0, 1.0), iIntensity);
+    fragColor = vec4(outc, clean.a);
 }

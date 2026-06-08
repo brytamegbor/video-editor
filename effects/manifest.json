@@ -1,5 +1,15 @@
 [
     {
+        "id": "octgrams",
+        "name": "Octgrams",
+        "kernel": "fx_octgrams",
+        "category": "downloadable",
+        "defaultIntensity": 0.7,
+        "accentHex": "#3FA9F5",
+        "metalUrl": "https://brytamegbor.github.io/video-editor/effects/octgrams/octgrams.metal",
+        "glslUrl": "https://brytamegbor.github.io/video-editor/effects/octgrams/octgrams.glsl"
+    },
+    {
         "id": "zoom-lens",
         "name": "Zoom Lens",
         "kernel": "fx_zoom_lens",
