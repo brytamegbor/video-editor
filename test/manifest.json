@@ -28,5 +28,15 @@
         "accentHex": "#30D158",
         "metalUrl": "https://brytamegbor.github.io/video-editor/test/tile-scroller/tile-scroller.metal",
         "glslUrl": "https://brytamegbor.github.io/video-editor/test/tile-scroller/tile-scroller.glsl"
+    },
+    {
+        "id": "vertical-scroll",
+        "name": "Vertical Scroll",
+        "kernel": "fx_vertical_scroll",
+        "category": "downloadable",
+        "defaultIntensity": 0.7,
+        "accentHex": "#30D158",
+        "metalUrl": "https://brytamegbor.github.io/video-editor/test/vertical-scroll/vertical-scroll.metal",
+        "glslUrl": "https://brytamegbor.github.io/video-editor/test/vertical-scroll/vertical-scroll.glsl"
     }
 ]
