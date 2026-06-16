@@ -18,7 +18,8 @@ uniform float iIntensity;
 //#define FIX_CENTER
 
 #define PI 3.14159265358979323846
-#define TILE_WIDTH 0.7   // relative tile width; smaller = thinner columns
+#define TILE_WIDTH  0.45  // relative tile width; smaller = thinner columns
+#define TILE_HEIGHT 0.6   // relative tile height; smaller = shorter rows
 
 float map(float value, float low1, float high1, float low2, float high2) {
     return low2 + (value - low1) * (high2 - low2) / (high1 - low1);
@@ -32,7 +33,8 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
 
     vec2 uv = (1.5 * fragCoord - iResolution.xy) / iResolution.y;
     uv.y *= aspect;       // fix aspect ratio
-    uv.x /= TILE_WIDTH;   // tile width (smaller = thinner columns)
+    uv.x /= TILE_WIDTH;   // tile width  (smaller = thinner columns)
+    uv.y /= TILE_HEIGHT;  // tile height (smaller = shorter rows)
 
     #if (SCROLL_DIRECTION == 0)
         float rows = 1.;
