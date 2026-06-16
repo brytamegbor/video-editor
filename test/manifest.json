@@ -18,5 +18,15 @@
         "accentHex": "#30D158",
         "metalUrl": "https://brytamegbor.github.io/video-editor/test/flip-page/flip-page.metal",
         "glslUrl": "https://brytamegbor.github.io/video-editor/test/flip-page/flip-page.glsl"
+    },
+    {
+        "id": "tile-scroller",
+        "name": "Tile Scroller",
+        "kernel": "fx_tile_scroller",
+        "category": "downloadable",
+        "defaultIntensity": 0.7,
+        "accentHex": "#30D158",
+        "metalUrl": "https://brytamegbor.github.io/video-editor/test/tile-scroller/tile-scroller.metal",
+        "glslUrl": "https://brytamegbor.github.io/video-editor/test/tile-scroller/tile-scroller.glsl"
     }
 ]
