@@ -28,6 +28,7 @@ struct EffectUniforms {
 };
 
 constant float PI = 3.14159265358979323846;
+constant float TILE_WIDTH = 0.7; // relative tile width; smaller = thinner columns
 
 inline float mapRange(float value, float low1, float high1, float low2, float high2) {
     return low2 + (value - low1) * (high2 - low2) / (high1 - low1);
@@ -56,7 +57,8 @@ kernel void fx_vertical_scroll(
     float time      = 3.0 * cos((cycleTime + 1.0) * PI) / 2.0 + 0.5;
 
     float2 uv = (1.5 * fragCoord - res) / res.y;
-    uv.y *= aspect; // fix aspect ratio
+    uv.y *= aspect;       // fix aspect ratio
+    uv.x /= TILE_WIDTH;   // tile width (smaller = thinner columns)
 
     // vertical scroll (SCROLL_DIRECTION == 1)
     float columns     = 1.0;
