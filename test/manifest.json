@@ -8,5 +8,15 @@
         "accentHex": "#30D158",
         "metalUrl": "https://brytamegbor.github.io/video-editor/test/mosaic/mosaic.metal",
         "glslUrl": "https://brytamegbor.github.io/video-editor/test/mosaic/mosaic.glsl"
+    },
+    {
+        "id": "flip-page",
+        "name": "Flip Page",
+        "kernel": "fx_flip_page",
+        "category": "downloadable",
+        "defaultIntensity": 0.6,
+        "accentHex": "#30D158",
+        "metalUrl": "https://brytamegbor.github.io/video-editor/test/flip-page/flip-page.metal",
+        "glslUrl": "https://brytamegbor.github.io/video-editor/test/flip-page/flip-page.glsl"
     }
 ]
