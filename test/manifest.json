@@ -1,0 +1,12 @@
+[
+    {
+        "id": "mosaic",
+        "name": "Mosaic",
+        "kernel": "fx_mosaic",
+        "category": "downloadable",
+        "defaultIntensity": 0.8,
+        "accentHex": "#30D158",
+        "metalUrl": "https://brytamegbor.github.io/video-editor/test/mosaic/mosaic.metal",
+        "glslUrl": "https://brytamegbor.github.io/video-editor/test/mosaic/mosaic.glsl"
+    }
+]
