@@ -6,8 +6,8 @@
     "category": "downloadable",
     "defaultDurationMs": 700,
     "accentHex": "#5BA9F2",
-    "gifUrl": "https://brytamegbor.github.io/video-editor/test/crosswarp/crosswarp.gif",
-    "metalUrl": "https://brytamegbor.github.io/video-editor/test/crosswarp/crosswarp.metal"
+    "gifUrl": "https://brytamegbor.github.io/video-editor/transitions/crosswarp/crosswarp.gif",
+    "metalUrl": "https://brytamegbor.github.io/video-editor/transitions/crosswarp/crosswarp.metal"
   },
   {
     "id": "directional_warp",
@@ -15,10 +15,15 @@
     "kernel": "trx_directional_warp",
     "category": "downloadable",
     "defaultDurationMs": 700,
-    "params": [-1, 1, 0.5, 0],
+    "params": [
+      -1,
+      1,
+      0.5,
+      0
+    ],
     "accentHex": "#9B7BF0",
-    "gifUrl": "https://brytamegbor.github.io/video-editor/test/directional_warp/directional_warp.gif",
-    "metalUrl": "https://brytamegbor.github.io/video-editor/test/directional_warp/directional_warp.metal"
+    "gifUrl": "https://brytamegbor.github.io/video-editor/transitions/directional_warp/directional_warp.gif",
+    "metalUrl": "https://brytamegbor.github.io/video-editor/transitions/directional_warp/directional_warp.metal"
   },
   {
     "id": "wind",
@@ -26,10 +31,15 @@
     "kernel": "trx_wind",
     "category": "downloadable",
     "defaultDurationMs": 800,
-    "params": [0.2, 0, 0, 0],
+    "params": [
+      0.2,
+      0,
+      0,
+      0
+    ],
     "accentHex": "#5CBDB8",
-    "gifUrl": "https://brytamegbor.github.io/video-editor/test/wind/wind.gif",
-    "metalUrl": "https://brytamegbor.github.io/video-editor/test/wind/wind.metal"
+    "gifUrl": "https://brytamegbor.github.io/video-editor/transitions/wind/wind.gif",
+    "metalUrl": "https://brytamegbor.github.io/video-editor/transitions/wind/wind.metal"
   },
   {
     "id": "ripple",
@@ -37,9 +47,14 @@
     "kernel": "trx_ripple",
     "category": "downloadable",
     "defaultDurationMs": 900,
-    "params": [100, 50, 0, 0],
+    "params": [
+      100,
+      50,
+      0,
+      0
+    ],
     "accentHex": "#F2734B",
-    "gifUrl": "https://brytamegbor.github.io/video-editor/test/ripple/ripple.gif",
-    "metalUrl": "https://brytamegbor.github.io/video-editor/test/ripple/ripple.metal"
+    "gifUrl": "https://brytamegbor.github.io/video-editor/transitions/ripple/ripple.gif",
+    "metalUrl": "https://brytamegbor.github.io/video-editor/transitions/ripple/ripple.metal"
   }
 ]
