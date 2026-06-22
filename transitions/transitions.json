@@ -120,5 +120,21 @@
     "accentHex": "#E87FB0",
     "gifUrl": "https://brytamegbor.github.io/video-editor/transitions/rolls/rolls.gif",
     "metalUrl": "https://brytamegbor.github.io/video-editor/transitions/rolls/rolls.metal"
+  },
+  {
+    "id": "scaleddown",
+    "name": "ScaledDown",
+    "kernel": "trx_scaleddown",
+    "category": "downloadable",
+    "defaultDurationMs": 800,
+    "params": [
+      0,
+      1,
+      0.7,
+      0
+    ],
+    "accentHex": "#FF6B2C",
+    "gifUrl": "https://brytamegbor.github.io/video-editor/transitions/scaleddown/scaleddown.gif",
+    "metalUrl": "https://brytamegbor.github.io/video-editor/transitions/scaleddown/scaleddown.metal"
   }
 ]
