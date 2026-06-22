@@ -56,5 +56,21 @@
     "accentHex": "#F2734B",
     "gifUrl": "https://brytamegbor.github.io/video-editor/transitions/ripple/ripple.gif",
     "metalUrl": "https://brytamegbor.github.io/video-editor/transitions/ripple/ripple.metal"
+  },
+  {
+    "id": "cube",
+    "name": "Cube",
+    "kernel": "trx_cube",
+    "category": "downloadable",
+    "defaultDurationMs": 800,
+    "params": [
+      0.7,
+      0.3,
+      0.4,
+      3
+    ],
+    "accentHex": "#4FB477",
+    "gifUrl": "https://brytamegbor.github.io/video-editor/transitions/cube/cube.gif",
+    "metalUrl": "https://brytamegbor.github.io/video-editor/transitions/cube/cube.metal"
   }
 ]
