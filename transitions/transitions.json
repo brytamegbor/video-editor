@@ -104,5 +104,21 @@
     "accentHex": "#E83FB0",
     "gifUrl": "https://brytamegbor.github.io/video-editor/transitions/parametric_glitch/parametric_glitch.gif",
     "metalUrl": "https://brytamegbor.github.io/video-editor/transitions/parametric_glitch/parametric_glitch.metal"
+  },
+  {
+    "id": "rolls",
+    "name": "Rolls",
+    "kernel": "trx_rolls",
+    "category": "downloadable",
+    "defaultDurationMs": 800,
+    "params": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "accentHex": "#E87FB0",
+    "gifUrl": "https://brytamegbor.github.io/video-editor/transitions/rolls/rolls.gif",
+    "metalUrl": "https://brytamegbor.github.io/video-editor/transitions/rolls/rolls.metal"
   }
 ]
