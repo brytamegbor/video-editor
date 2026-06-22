@@ -88,5 +88,21 @@
     "accentHex": "#FF6B2C",
     "gifUrl": "https://brytamegbor.github.io/video-editor/transitions/burn/burn.gif",
     "metalUrl": "https://brytamegbor.github.io/video-editor/transitions/burn/burn.metal"
+  },
+  {
+    "id": "parametric_glitch",
+    "name": "Parametric Glitch",
+    "kernel": "trx_parametric_glitch",
+    "category": "downloadable",
+    "defaultDurationMs": 700,
+    "params": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "accentHex": "#E83FB0",
+    "gifUrl": "https://brytamegbor.github.io/video-editor/transitions/parametric_glitch/parametric_glitch.gif",
+    "metalUrl": "https://brytamegbor.github.io/video-editor/transitions/parametric_glitch/parametric_glitch.metal"
   }
 ]
