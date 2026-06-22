@@ -72,5 +72,21 @@
     "accentHex": "#4FB477",
     "gifUrl": "https://brytamegbor.github.io/video-editor/transitions/cube/cube.gif",
     "metalUrl": "https://brytamegbor.github.io/video-editor/transitions/cube/cube.metal"
+  },
+  {
+    "id": "burn",
+    "name": "Burn",
+    "kernel": "trx_burn",
+    "category": "downloadable",
+    "defaultDurationMs": 800,
+    "params": [
+      1,
+      0.5,
+      0,
+      0
+    ],
+    "accentHex": "#FF6B2C",
+    "gifUrl": "https://brytamegbor.github.io/video-editor/transitions/burn/burn.gif",
+    "metalUrl": "https://brytamegbor.github.io/video-editor/transitions/burn/burn.metal"
   }
 ]
