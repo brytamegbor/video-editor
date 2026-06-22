@@ -24,6 +24,36 @@ test/
 One folder per transition, named by its `id`. Inside, two files named by the
 same `id`: `<id>.metal` (required) and `<id>.gif` (preview).
 
+## Porting a new transition (the easy way)
+
+`port_transition.py` automates the whole flow below — paste a gl-transitions
+GLSL snippet into a file and run:
+
+```sh
+python3 transitions/port_transition.py new-transition.md --accent "#FF6B2C"
+```
+
+It translates the GLSL to a wrapped Metal kernel (`<id>/<id>.metal`), packs the
+shader's `uniform`s onto `params.x…w`, upserts the manifest entry (default
+`params` come from the uniforms' `// = …` defaults), **compile-checks** with
+`xcrun metal -c`, and renders the preview GIF via `make_gifs.swift`. The `id`
+defaults to the `<!-- name: x -->` comment (or the filename); override anything
+with `--id`, `--name`, `--accent`, `--duration`, `--clips A B`, `--no-gif`,
+`--force`.
+
+It covers the common gl-transitions subset. Two things to know:
+
+- **Paste the GLSL inside a <code>```glsl</code> fence** if the source is
+  markdown — otherwise markdown mangles `*` operators (the script de-mangles
+  heuristically and warns, but a fence is reliable).
+- The GLSL→Metal translation can't express *every* shader (builtins like `mod`
+  semantics or a scalar `distance()` have no direct Metal equivalent — see the
+  hand-written workaround in `cube/cube.metal`). When that happens the **compile
+  step fails with a line number**; fix that spot by hand and re-run with
+  `--force`. Always eyeball the generated `.metal` and GIF before committing.
+
+The sections below document what the script produces, for manual ports or fixups.
+
 ## Manifest entry (one `EditorTransitionDescriptor`)
 
 | field               | required | notes                                                                   |
