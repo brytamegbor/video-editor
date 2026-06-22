@@ -91,7 +91,7 @@
   },
   {
     "id": "parametric_glitch",
-    "name": "Parametric Glitch",
+    "name": "PGlitch",
     "kernel": "trx_parametric_glitch",
     "category": "downloadable",
     "defaultDurationMs": 700,
