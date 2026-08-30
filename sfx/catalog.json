@@ -1,0 +1,4043 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-30T13:16:52Z",
+  "categories": [
+    {
+      "id": "whoosh",
+      "name": "Whoosh",
+      "sounds": [
+        {
+          "id": "264777",
+          "name": "Swoosh",
+          "durationMs": 5312,
+          "sizeBytes": 126259,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/264777.mp3",
+          "creator": "Shinplaster",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/264777/",
+          "tags": [
+            "Swoosh",
+            "flyby",
+            "transition",
+            "whizz",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "683096",
+          "name": "Woosh",
+          "durationMs": 1717,
+          "sizeBytes": 40872,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/683096.mp3",
+          "creator": "florianreichelt",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/683096/",
+          "tags": [
+            "Airy",
+            "Blowing",
+            "Bluster",
+            "Fast",
+            "Flurry",
+            "Flying",
+            "Gust",
+            "Jet"
+          ]
+        },
+        {
+          "id": "169867",
+          "name": "swoosh",
+          "durationMs": 2319,
+          "sizeBytes": 54583,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/169867.mp3",
+          "creator": "Halgrimm",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/169867/",
+          "tags": [
+            "cinematic",
+            "funky",
+            "morph",
+            "swoosh",
+            "transition",
+            "whoosh",
+            "woosh"
+          ]
+        },
+        {
+          "id": "683101",
+          "name": "quick woosh",
+          "durationMs": 2053,
+          "sizeBytes": 45312,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/683101.mp3",
+          "creator": "florianreichelt",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/683101/",
+          "tags": [
+            "Air",
+            "Blade",
+            "Dynamic",
+            "Fast",
+            "Fly",
+            "Flying",
+            "Jet",
+            "Motion"
+          ]
+        },
+        {
+          "id": "351256",
+          "name": "Deep Whoosh #1",
+          "durationMs": 3156,
+          "sizeBytes": 69196,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/351256.mp3",
+          "creator": "Kinoton",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/351256/",
+          "tags": [
+            "air",
+            "sfx",
+            "sound-design",
+            "soundeffect",
+            "sweeping",
+            "swish",
+            "swoosh",
+            "swosh"
+          ]
+        },
+        {
+          "id": "234555",
+          "name": "Swoosh Explosion",
+          "durationMs": 4614,
+          "sizeBytes": 107409,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/234555.mp3",
+          "creator": "Electroviolence",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/234555/",
+          "tags": [
+            "blast",
+            "explosion",
+            "fx",
+            "sfx",
+            "swoosh",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "234553",
+          "name": "Swoosh 5",
+          "durationMs": 3232,
+          "sizeBytes": 68878,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/234553.mp3",
+          "creator": "Electroviolence",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/234553/",
+          "tags": [
+            "effect",
+            "fx",
+            "impact",
+            "sfx",
+            "swoosh",
+            "transition",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "425700",
+          "name": "Woosh_Low_02.wav",
+          "durationMs": 3750,
+          "sizeBytes": 47871,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/425700.mp3",
+          "creator": "moogy73",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/425700/",
+          "tags": [
+            "effect",
+            "fly",
+            "future",
+            "fx",
+            "noise",
+            "scifi",
+            "sfx",
+            "soundeffect"
+          ]
+        },
+        {
+          "id": "351259",
+          "name": "Deep Whoosh #2",
+          "durationMs": 3060,
+          "sizeBytes": 64862,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/351259.mp3",
+          "creator": "Kinoton",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/351259/",
+          "tags": [
+            "air",
+            "sfx",
+            "sound-design",
+            "soundeffect",
+            "sweeping",
+            "swish",
+            "swoosh",
+            "swosh"
+          ]
+        },
+        {
+          "id": "462879",
+          "name": "Long Ethereal Woosh.wav",
+          "durationMs": 6653,
+          "sizeBytes": 152671,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/462879.mp3",
+          "creator": "newagesoup",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/462879/",
+          "tags": [
+            "abstract",
+            "design",
+            "digital",
+            "effect",
+            "electric",
+            "electronic",
+            "future",
+            "fx"
+          ]
+        },
+        {
+          "id": "425698",
+          "name": "Woosh_Low_04.wav",
+          "durationMs": 3750,
+          "sizeBytes": 76800,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/425698.mp3",
+          "creator": "moogy73",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/425698/",
+          "tags": [
+            "effect",
+            "fly",
+            "future",
+            "fx",
+            "noise",
+            "scifi",
+            "sfx",
+            "soundeffect"
+          ]
+        },
+        {
+          "id": "425699",
+          "name": "Woosh_Low_03.wav",
+          "durationMs": 3750,
+          "sizeBytes": 69385,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/425699.mp3",
+          "creator": "moogy73",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/425699/",
+          "tags": [
+            "effect",
+            "fly",
+            "future",
+            "fx",
+            "noise",
+            "scifi",
+            "sfx",
+            "soundeffect"
+          ]
+        },
+        {
+          "id": "332003",
+          "name": "whoosh.wav",
+          "durationMs": 729,
+          "sizeBytes": 20039,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/332003.mp3",
+          "creator": "LloydEvans09",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/332003/",
+          "tags": [
+            "air",
+            "attack",
+            "bamboo",
+            "flup",
+            "luft",
+            "punch",
+            "stick",
+            "swash"
+          ]
+        },
+        {
+          "id": "742832",
+          "name": "Woosh - Metal tea strainer 1",
+          "durationMs": 251,
+          "sizeBytes": 8016,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/742832.mp3",
+          "creator": "Sadiquecat",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/742832/",
+          "tags": [
+            "SFX",
+            "Swing",
+            "Swinging",
+            "Swish",
+            "Whoosh",
+            "Whooshing",
+            "Woosh",
+            "air"
+          ]
+        },
+        {
+          "id": "267950",
+          "name": "whoosh.wav",
+          "durationMs": 757,
+          "sizeBytes": 15720,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/267950.mp3",
+          "creator": "anagar",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/267950/",
+          "tags": [
+            "animation",
+            "swoosh",
+            "transition",
+            "whoose",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "425697",
+          "name": "Woosh_Low_05.wav",
+          "durationMs": 3750,
+          "sizeBytes": 87111,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/425697.mp3",
+          "creator": "moogy73",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/425697/",
+          "tags": [
+            "effect",
+            "fly",
+            "future",
+            "fx",
+            "noise",
+            "scifi",
+            "sfx",
+            "soundeffect"
+          ]
+        },
+        {
+          "id": "427823",
+          "name": "Whoosh #1",
+          "durationMs": 800,
+          "sizeBytes": 20544,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/427823.mp3",
+          "creator": "Kinoton",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/427823/",
+          "tags": [
+            "air",
+            "attack",
+            "bamboo",
+            "punch",
+            "slide",
+            "stick",
+            "swing",
+            "swish"
+          ]
+        },
+        {
+          "id": "425696",
+          "name": "Woosh_High_01.wav",
+          "durationMs": 2344,
+          "sizeBytes": 52909,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/425696.mp3",
+          "creator": "moogy73",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/425696/",
+          "tags": [
+            "effect",
+            "fly",
+            "future",
+            "fx",
+            "noise",
+            "scifi",
+            "sfx",
+            "soundeffect"
+          ]
+        },
+        {
+          "id": "425703",
+          "name": "Woosh_Medium_01.wav",
+          "durationMs": 2344,
+          "sizeBytes": 53482,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/425703.mp3",
+          "creator": "moogy73",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/425703/",
+          "tags": [
+            "effect",
+            "fly",
+            "future",
+            "fx",
+            "noise",
+            "scifi",
+            "sfx",
+            "soundeffect"
+          ]
+        },
+        {
+          "id": "369502",
+          "name": "Deep Whoosh #3",
+          "durationMs": 8752,
+          "sizeBytes": 197808,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/369502.mp3",
+          "creator": "Kinoton",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/369502/",
+          "tags": [
+            "air",
+            "sfx",
+            "sound-design",
+            "soundeffect",
+            "sweeping",
+            "swish",
+            "swoosh",
+            "swosh"
+          ]
+        },
+        {
+          "id": "425693",
+          "name": "Woosh_Low_01.wav",
+          "durationMs": 2344,
+          "sizeBytes": 54476,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/425693.mp3",
+          "creator": "moogy73",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/425693/",
+          "tags": [
+            "effect",
+            "fly",
+            "future",
+            "fx",
+            "noise",
+            "scifi",
+            "sfx",
+            "soundeffect"
+          ]
+        },
+        {
+          "id": "425705",
+          "name": "Woosh_Medium_03.wav",
+          "durationMs": 2972,
+          "sizeBytes": 66682,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/425705.mp3",
+          "creator": "moogy73",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/425705/",
+          "tags": [
+            "effect",
+            "fly",
+            "future",
+            "fx",
+            "noise",
+            "scifi",
+            "sfx",
+            "soundeffect"
+          ]
+        },
+        {
+          "id": "425706",
+          "name": "Woosh_Medium_Short_01.wav",
+          "durationMs": 2344,
+          "sizeBytes": 26435,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/425706.mp3",
+          "creator": "moogy73",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/425706/",
+          "tags": [
+            "effect",
+            "fly",
+            "future",
+            "fx",
+            "noise",
+            "scifi",
+            "sfx",
+            "soundeffect"
+          ]
+        },
+        {
+          "id": "425701",
+          "name": "Woosh_Low_Long02.wav",
+          "durationMs": 5625,
+          "sizeBytes": 130026,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/425701.mp3",
+          "creator": "moogy73",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/425701/",
+          "tags": [
+            "effect",
+            "fly",
+            "future",
+            "fx",
+            "noise",
+            "scifi",
+            "sfx",
+            "soundeffect"
+          ]
+        },
+        {
+          "id": "234535",
+          "name": "Dry Transition",
+          "durationMs": 1130,
+          "sizeBytes": 25518,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/234535.mp3",
+          "creator": "Electroviolence",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/234535/",
+          "tags": [
+            "dry",
+            "effect",
+            "fx",
+            "sfx",
+            "transition",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "427979",
+          "name": "Short Whoosh, 13x",
+          "durationMs": 14316,
+          "sizeBytes": 325200,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/427979.mp3",
+          "creator": "Kinoton",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/427979/",
+          "tags": [
+            "air",
+            "attack",
+            "bamboo",
+            "punch",
+            "slide",
+            "stick",
+            "swing",
+            "swish"
+          ]
+        },
+        {
+          "id": "425702",
+          "name": "Woosh_Low_Long01.wav",
+          "durationMs": 5625,
+          "sizeBytes": 125134,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/425702.mp3",
+          "creator": "moogy73",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/425702/",
+          "tags": [
+            "effect",
+            "fly",
+            "future",
+            "fx",
+            "noise",
+            "scifi",
+            "sfx",
+            "soundeffect"
+          ]
+        },
+        {
+          "id": "425695",
+          "name": "Woosh_High_02.wav",
+          "durationMs": 2344,
+          "sizeBytes": 52490,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/425695.mp3",
+          "creator": "moogy73",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/425695/",
+          "tags": [
+            "effect",
+            "fly",
+            "future",
+            "fx",
+            "noise",
+            "scifi",
+            "sfx",
+            "soundeffect"
+          ]
+        },
+        {
+          "id": "234533",
+          "name": "Wet Transition",
+          "durationMs": 3320,
+          "sizeBytes": 74414,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/234533.mp3",
+          "creator": "Electroviolence",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/234533/",
+          "tags": [
+            "effect",
+            "fx",
+            "sfx",
+            "transition",
+            "wet",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "794818",
+          "name": "SWSH_Swish Of Heavy Stick.Artificial 1_EM",
+          "durationMs": 22254,
+          "sizeBytes": 353928,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/794818.mp3",
+          "creator": "newlocknew",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/794818/",
+          "tags": [
+            "artificial",
+            "cinematic",
+            "designed",
+            "effect",
+            "film",
+            "flamethrower",
+            "fx",
+            "game"
+          ]
+        },
+        {
+          "id": "632763",
+          "name": "Transition Swoosh",
+          "durationMs": 1492,
+          "sizeBytes": 12926,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/632763.mp3",
+          "creator": "adh.dreaming",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/632763/",
+          "tags": [
+            "effect",
+            "powerpoint",
+            "sfx",
+            "swish",
+            "swoosh",
+            "transition",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "425704",
+          "name": "Woosh_Low_Short_01.wav",
+          "durationMs": 2344,
+          "sizeBytes": 26434,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/425704.mp3",
+          "creator": "moogy73",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/425704/",
+          "tags": [
+            "effect",
+            "fly",
+            "future",
+            "fx",
+            "noise",
+            "scifi",
+            "sfx",
+            "soundeffect"
+          ]
+        },
+        {
+          "id": "706679",
+          "name": "Low Whoosh Bamboo 4",
+          "durationMs": 756,
+          "sizeBytes": 19632,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/706679.mp3",
+          "creator": "Sadiquecat",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/706679/",
+          "tags": [
+            "Bamboo",
+            "SFX",
+            "Swing",
+            "Swinging",
+            "Whooshing",
+            "Woosh",
+            "air",
+            "attack"
+          ]
+        },
+        {
+          "id": "701104",
+          "name": "Whoosh stereo light (transition)",
+          "durationMs": 2317,
+          "sizeBytes": 53856,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/701104.mp3",
+          "creator": "xkeril",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/701104/",
+          "tags": [
+            "air",
+            "light",
+            "stereo",
+            "swoosh",
+            "swosh",
+            "transition",
+            "whoosh",
+            "wind"
+          ]
+        },
+        {
+          "id": "558826",
+          "name": "Deep Whoosh #6",
+          "durationMs": 4052,
+          "sizeBytes": 89280,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/558826.mp3",
+          "creator": "Kinoton",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/558826/",
+          "tags": [
+            "air",
+            "pass-by",
+            "sfx",
+            "sound-design",
+            "sweeping",
+            "swish",
+            "swoosh",
+            "swosh"
+          ]
+        },
+        {
+          "id": "521046",
+          "name": "Whoosh_Simple_ER_SFX_5.wav",
+          "durationMs": 5577,
+          "sizeBytes": 99654,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/521046.mp3",
+          "creator": "Alex_hears_things",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/521046/",
+          "tags": [
+            "air",
+            "long",
+            "soft",
+            "swish",
+            "swoosh",
+            "swosh",
+            "transition",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "425694",
+          "name": "Woosh_High_Short_01.wav",
+          "durationMs": 2344,
+          "sizeBytes": 26644,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/425694.mp3",
+          "creator": "moogy73",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/425694/",
+          "tags": [
+            "effect",
+            "fly",
+            "future",
+            "fx",
+            "noise",
+            "scifi",
+            "sfx",
+            "soundeffect"
+          ]
+        },
+        {
+          "id": "234545",
+          "name": "Blast Off",
+          "durationMs": 17985,
+          "sizeBytes": 373885,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/234545.mp3",
+          "creator": "Electroviolence",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/234545/",
+          "tags": [
+            "blast-off",
+            "explosion",
+            "launch",
+            "rocket",
+            "takeoff",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "516893",
+          "name": "Deep Whoosh #4",
+          "durationMs": 4716,
+          "sizeBytes": 108720,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/516893.mp3",
+          "creator": "Kinoton",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/516893/",
+          "tags": [
+            "air",
+            "sfx",
+            "sound-design",
+            "soundeffect",
+            "sweeping",
+            "swish",
+            "swoosh",
+            "swosh"
+          ]
+        },
+        {
+          "id": "59989",
+          "name": "swosh-02.flac",
+          "durationMs": 202,
+          "sizeBytes": 7098,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/59989.mp3",
+          "creator": "qubodup",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/59989/",
+          "tags": [
+            "air",
+            "attack",
+            "bamboo",
+            "cut",
+            "domain",
+            "flup",
+            "h2",
+            "luft"
+          ]
+        },
+        {
+          "id": "521044",
+          "name": "Whoosh_Simple_ER_SFX_1.wav",
+          "durationMs": 7066,
+          "sizeBytes": 123547,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/521044.mp3",
+          "creator": "Alex_hears_things",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/521044/",
+          "tags": [
+            "air",
+            "long",
+            "soft",
+            "swish",
+            "swoosh",
+            "swosh",
+            "transition",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "234549",
+          "name": "Swoosh 3",
+          "durationMs": 4219,
+          "sizeBytes": 96396,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/234549.mp3",
+          "creator": "Electroviolence",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/234549/",
+          "tags": [
+            "fx",
+            "sfx",
+            "swift",
+            "swoosh",
+            "transition",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "521047",
+          "name": "Whoosh_Simple_ER_SFX_4.wav",
+          "durationMs": 5250,
+          "sizeBytes": 99035,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/521047.mp3",
+          "creator": "Alex_hears_things",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/521047/",
+          "tags": [
+            "air",
+            "long",
+            "soft",
+            "swish",
+            "swoosh",
+            "swosh",
+            "transition",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "267951",
+          "name": "whoosh2.wav",
+          "durationMs": 2462,
+          "sizeBytes": 46560,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/267951.mp3",
+          "creator": "anagar",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/267951/",
+          "tags": [
+            "animation",
+            "swoosh",
+            "transition",
+            "whoose",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "558827",
+          "name": "Deep Whoosh #5",
+          "durationMs": 3180,
+          "sizeBytes": 67776,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/558827.mp3",
+          "creator": "Kinoton",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/558827/",
+          "tags": [
+            "air",
+            "sfx",
+            "sound-design",
+            "soundeffect",
+            "sweeping",
+            "swish",
+            "swoosh",
+            "swosh"
+          ]
+        },
+        {
+          "id": "706677",
+          "name": "Low Whoosh Bamboo 2",
+          "durationMs": 545,
+          "sizeBytes": 15168,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/706677.mp3",
+          "creator": "Sadiquecat",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/706677/",
+          "tags": [
+            "Bamboo",
+            "SFX",
+            "Swing",
+            "Swinging",
+            "Swish",
+            "Whoosh",
+            "Whooshing",
+            "Woosh"
+          ]
+        },
+        {
+          "id": "743010",
+          "name": "Woosh - Ukulele 4",
+          "durationMs": 315,
+          "sizeBytes": 9120,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/743010.mp3",
+          "creator": "Sadiquecat",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/743010/",
+          "tags": [
+            "air",
+            "effect",
+            "fast",
+            "one-shot",
+            "oneshot",
+            "sfx",
+            "swash",
+            "swhish"
+          ]
+        },
+        {
+          "id": "219095",
+          "name": "vocal whooshes.wav",
+          "durationMs": 8498,
+          "sizeBytes": 195609,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/219095.mp3",
+          "creator": "servicedesign",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/219095/",
+          "tags": [
+            "acapella",
+            "doppler",
+            "swish",
+            "swoosh",
+            "transition",
+            "vocal",
+            "whoosh",
+            "woosh"
+          ]
+        },
+        {
+          "id": "706678",
+          "name": "Low Whoosh Bamboo 3",
+          "durationMs": 693,
+          "sizeBytes": 18384,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/706678.mp3",
+          "creator": "Sadiquecat",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/706678/",
+          "tags": [
+            "Bamboo",
+            "SFX",
+            "Swing",
+            "Swinging",
+            "Swish",
+            "Whoosh",
+            "Whooshing",
+            "Woosh"
+          ]
+        },
+        {
+          "id": "382249",
+          "name": "Moving Effect.wav",
+          "durationMs": 4549,
+          "sizeBytes": 113650,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/382249.mp3",
+          "creator": "AlexProst",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/382249/",
+          "tags": [
+            "doppler",
+            "fly-by",
+            "flyby",
+            "pass",
+            "pass-by",
+            "swoosh",
+            "transition",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "521043",
+          "name": "Whoosh_Simple_ER_SFX_2.wav",
+          "durationMs": 4149,
+          "sizeBytes": 77899,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/521043.mp3",
+          "creator": "Alex_hears_things",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/521043/",
+          "tags": [
+            "air",
+            "long",
+            "soft",
+            "swish",
+            "swoosh",
+            "swosh",
+            "transition",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "447493",
+          "name": "a lot of wooshes",
+          "durationMs": 8981,
+          "sizeBytes": 217248,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/447493.mp3",
+          "creator": "florianreichelt",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/447493/",
+          "tags": [
+            "effect",
+            "flup",
+            "fx",
+            "luft",
+            "sfx",
+            "sound",
+            "swash",
+            "swhish"
+          ]
+        },
+        {
+          "id": "742833",
+          "name": "Woosh - Metal tea strainer 4 - slowed down",
+          "durationMs": 1267,
+          "sizeBytes": 22783,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/742833.mp3",
+          "creator": "Sadiquecat",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/742833/",
+          "tags": [
+            "Airy",
+            "Fall",
+            "SFX",
+            "Swing",
+            "Swinging",
+            "Wind",
+            "Woosh",
+            "air"
+          ]
+        },
+        {
+          "id": "649445",
+          "name": "Cinematic Woosh SFX-015.wav",
+          "durationMs": 5275,
+          "sizeBytes": 116784,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/649445.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/649445/",
+          "tags": [
+            "bass",
+            "boom",
+            "cinematic",
+            "deep",
+            "effect",
+            "epic",
+            "explosion",
+            "game"
+          ]
+        },
+        {
+          "id": "807446",
+          "name": "whoosh bass 1",
+          "durationMs": 1728,
+          "sizeBytes": 40444,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/807446.mp3",
+          "creator": "Logicogonist",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/807446/",
+          "tags": [
+            "air",
+            "airy",
+            "blowing",
+            "bluster",
+            "effects",
+            "fast",
+            "flurry",
+            "flying"
+          ]
+        },
+        {
+          "id": "743004",
+          "name": "Woosh - Ukulele 6 Slow",
+          "durationMs": 1543,
+          "sizeBytes": 23763,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/743004.mp3",
+          "creator": "Sadiquecat",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/743004/",
+          "tags": [
+            "air",
+            "cinematic",
+            "deep",
+            "edited",
+            "effect",
+            "fast",
+            "low",
+            "one-shot"
+          ]
+        },
+        {
+          "id": "730959",
+          "name": "Heavy Whoosh",
+          "durationMs": 26582,
+          "sizeBytes": 604103,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/730959.mp3",
+          "creator": "SoundBiterSFX",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/730959/",
+          "tags": [
+            "air",
+            "airflow",
+            "blast",
+            "blow",
+            "cinematic",
+            "fast",
+            "gust",
+            "motion"
+          ]
+        },
+        {
+          "id": "521042",
+          "name": "Whoosh_Simple_ER_SFX_3.wav",
+          "durationMs": 5958,
+          "sizeBytes": 112286,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/521042.mp3",
+          "creator": "Alex_hears_things",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/521042/",
+          "tags": [
+            "air",
+            "long",
+            "soft",
+            "swhish",
+            "swish",
+            "swoosh",
+            "swosh",
+            "transition"
+          ]
+        },
+        {
+          "id": "807976",
+          "name": "bass rumble - deepwhoosh 1",
+          "durationMs": 1846,
+          "sizeBytes": 41591,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/807976.mp3",
+          "creator": "Logicogonist",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/807976/",
+          "tags": [
+            "air",
+            "airy",
+            "blowing",
+            "bluster",
+            "effects",
+            "fast",
+            "flurry",
+            "flying"
+          ]
+        },
+        {
+          "id": "742955",
+          "name": "Woosh - Metal Skimmer 1 (slowed)",
+          "durationMs": 1203,
+          "sizeBytes": 28512,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/742955.mp3",
+          "creator": "Sadiquecat",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/742955/",
+          "tags": [
+            "airy",
+            "edited",
+            "effect",
+            "fast",
+            "fly",
+            "flyby",
+            "flying",
+            "hero"
+          ]
+        },
+        {
+          "id": "800300",
+          "name": "Woosh",
+          "durationMs": 2125,
+          "sizeBytes": 51552,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/800300.mp3",
+          "creator": "mahdinegari",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/800300/",
+          "tags": [
+            "swoosh",
+            "transition",
+            "whoosh",
+            "woosh"
+          ]
+        },
+        {
+          "id": "648614",
+          "name": "Cinematic Woosh SFX-009.wav",
+          "durationMs": 4464,
+          "sizeBytes": 94752,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/648614.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/648614/",
+          "tags": [
+            "bass",
+            "boom",
+            "cinematic",
+            "deep",
+            "effect",
+            "epic",
+            "explosion",
+            "game"
+          ]
+        },
+        {
+          "id": "648729",
+          "name": "Cinematic Woosh SFX-010.wav",
+          "durationMs": 1752,
+          "sizeBytes": 31272,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/648729.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/648729/",
+          "tags": [
+            "bass",
+            "boom",
+            "cinematic",
+            "deep",
+            "effect",
+            "epic",
+            "explosion",
+            "game"
+          ]
+        },
+        {
+          "id": "234547",
+          "name": "Big Swoosh",
+          "durationMs": 2534,
+          "sizeBytes": 61420,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/234547.mp3",
+          "creator": "Electroviolence",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/234547/",
+          "tags": [
+            "big",
+            "fx",
+            "huge",
+            "sfx",
+            "swoosh",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "234539",
+          "name": "Wet Transition 2",
+          "durationMs": 3560,
+          "sizeBytes": 75587,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/234539.mp3",
+          "creator": "Electroviolence",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/234539/",
+          "tags": [
+            "digital",
+            "fx",
+            "reverb",
+            "sfx",
+            "transition",
+            "wet",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "648837",
+          "name": "Cinematic Woosh SFX-013.wav",
+          "durationMs": 4443,
+          "sizeBytes": 79584,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/648837.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/648837/",
+          "tags": [
+            "bass",
+            "boom",
+            "cinematic",
+            "deep",
+            "effect",
+            "epic",
+            "explosion",
+            "game"
+          ]
+        },
+        {
+          "id": "447494",
+          "name": "a wide variety of wooshes made by a human",
+          "durationMs": 19051,
+          "sizeBytes": 437568,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/447494.mp3",
+          "creator": "florianreichelt",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/447494/",
+          "tags": [
+            "effect",
+            "fx",
+            "sfx",
+            "sound",
+            "swhish",
+            "swish",
+            "swooooosh",
+            "swoooosh"
+          ]
+        },
+        {
+          "id": "511874",
+          "name": "Riser Hit sfx 031.wav",
+          "durationMs": 2162,
+          "sizeBytes": 51136,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511874.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511874/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "645485",
+          "name": "Sci-Fi Transition.wav",
+          "durationMs": 3887,
+          "sizeBytes": 71376,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/645485.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/645485/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "649061",
+          "name": "Cinematic Woosh SFX-014.wav",
+          "durationMs": 3957,
+          "sizeBytes": 88512,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/649061.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/649061/",
+          "tags": [
+            "bass",
+            "boom",
+            "cinematic",
+            "deep",
+            "effect",
+            "epic",
+            "explosion",
+            "game"
+          ]
+        },
+        {
+          "id": "648610",
+          "name": "Cinematic Woosh SFX-008.wav",
+          "durationMs": 3893,
+          "sizeBytes": 76992,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/648610.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/648610/",
+          "tags": [
+            "bass",
+            "boom",
+            "cinematic",
+            "deep",
+            "effect",
+            "epic",
+            "explosion",
+            "game"
+          ]
+        },
+        {
+          "id": "648540",
+          "name": "Cinematic Woosh SFX-006.wav",
+          "durationMs": 4866,
+          "sizeBytes": 89664,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/648540.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/648540/",
+          "tags": [
+            "bass",
+            "boom",
+            "cinematic",
+            "deep",
+            "effect",
+            "epic",
+            "explosion",
+            "game"
+          ]
+        },
+        {
+          "id": "511872",
+          "name": "Riser Hit sfx 025.wav",
+          "durationMs": 2612,
+          "sizeBytes": 62092,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511872.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511872/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "511876",
+          "name": "Riser Hit sfx 024.wav",
+          "durationMs": 4000,
+          "sizeBytes": 83169,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511876.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511876/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "706676",
+          "name": "Whoosh Bamboo 1",
+          "durationMs": 923,
+          "sizeBytes": 23904,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/706676.mp3",
+          "creator": "Sadiquecat",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/706676/",
+          "tags": [
+            "Bamboo",
+            "SFX",
+            "Whoosh",
+            "Whooshing",
+            "Woosh",
+            "air",
+            "arrow",
+            "attack"
+          ]
+        },
+        {
+          "id": "234541",
+          "name": "Swoosh 2",
+          "durationMs": 4096,
+          "sizeBytes": 93396,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/234541.mp3",
+          "creator": "Electroviolence",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/234541/",
+          "tags": [
+            "fx",
+            "sfx",
+            "spaceship",
+            "swoosh",
+            "transition",
+            "wet",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "648536",
+          "name": "Cinematic Woosh SFX-003.wav",
+          "durationMs": 4285,
+          "sizeBytes": 74112,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/648536.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/648536/",
+          "tags": [
+            "bass",
+            "boom",
+            "cinematic",
+            "deep",
+            "effect",
+            "epic",
+            "explosion",
+            "game"
+          ]
+        },
+        {
+          "id": "521041",
+          "name": "Whoosh_LargeVerb_ER_SFX_10.wav",
+          "durationMs": 11929,
+          "sizeBytes": 261810,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/521041.mp3",
+          "creator": "Alex_hears_things",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/521041/",
+          "tags": [
+            "air",
+            "long",
+            "soft",
+            "swish",
+            "swoosh",
+            "swosh",
+            "transition",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "648541",
+          "name": "Cinematic Woosh SFX-005.wav",
+          "durationMs": 4569,
+          "sizeBytes": 76608,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/648541.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/648541/",
+          "tags": [
+            "bass",
+            "boom",
+            "cinematic",
+            "deep",
+            "effect",
+            "epic",
+            "explosion",
+            "game"
+          ]
+        },
+        {
+          "id": "648732",
+          "name": "Cinematic Woosh SFX-011.wav",
+          "durationMs": 2307,
+          "sizeBytes": 51456,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/648732.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/648732/",
+          "tags": [
+            "bass",
+            "boom",
+            "cinematic",
+            "deep",
+            "effect",
+            "epic",
+            "explosion",
+            "game"
+          ]
+        },
+        {
+          "id": "648769",
+          "name": "Cinematic Woosh SFX-012.wav",
+          "durationMs": 4335,
+          "sizeBytes": 69984,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/648769.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/648769/",
+          "tags": [
+            "bass",
+            "boom",
+            "cinematic",
+            "deep",
+            "effect",
+            "epic",
+            "explosion",
+            "game"
+          ]
+        },
+        {
+          "id": "648539",
+          "name": "Cinematic Woosh SFX-007.wav",
+          "durationMs": 3893,
+          "sizeBytes": 74880,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/648539.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/648539/",
+          "tags": [
+            "bass",
+            "boom",
+            "cinematic",
+            "deep",
+            "effect",
+            "epic",
+            "explosion",
+            "game"
+          ]
+        },
+        {
+          "id": "648538",
+          "name": "Cinematic Woosh SFX-001.wav",
+          "durationMs": 5301,
+          "sizeBytes": 95232,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/648538.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/648538/",
+          "tags": [
+            "bass",
+            "boom",
+            "cinematic",
+            "deep",
+            "effect",
+            "epic",
+            "explosion",
+            "game"
+          ]
+        },
+        {
+          "id": "648537",
+          "name": "Cinematic Woosh SFX-002.wav",
+          "durationMs": 4649,
+          "sizeBytes": 87768,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/648537.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/648537/",
+          "tags": [
+            "bass",
+            "boom",
+            "cinematic",
+            "deep",
+            "effect",
+            "epic",
+            "explosion",
+            "game"
+          ]
+        },
+        {
+          "id": "511867",
+          "name": "Riser Hit sfx 029.wav",
+          "durationMs": 4390,
+          "sizeBytes": 86663,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511867.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511867/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "511862",
+          "name": "Riser Hit sfx 016.wav",
+          "durationMs": 2963,
+          "sizeBytes": 69502,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511862.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511862/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "521040",
+          "name": "Whoosh_LargeVerb_ER_SFX_6.wav",
+          "durationMs": 11929,
+          "sizeBytes": 259933,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/521040.mp3",
+          "creator": "Alex_hears_things",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/521040/",
+          "tags": [
+            "air",
+            "long",
+            "soft",
+            "swish",
+            "swoosh",
+            "swosh",
+            "transition",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "742959",
+          "name": "Woosh - Metal Skimmer 5",
+          "durationMs": 128,
+          "sizeBytes": 4752,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/742959.mp3",
+          "creator": "Sadiquecat",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/742959/",
+          "tags": [
+            "affect",
+            "airy",
+            "edited",
+            "effect",
+            "fast",
+            "fly",
+            "flying",
+            "metal"
+          ]
+        },
+        {
+          "id": "511869",
+          "name": "Riser Hit sfx 027.wav",
+          "durationMs": 4272,
+          "sizeBytes": 94076,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511869.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511869/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "569258",
+          "name": "Whoosh (tiny)",
+          "durationMs": 3021,
+          "sizeBytes": 59040,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/569258.mp3",
+          "creator": "Nakhas",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/569258/",
+          "tags": [
+            "3D",
+            "doppler",
+            "fly-by",
+            "flyby",
+            "pass-by",
+            "small",
+            "spatial",
+            "swish"
+          ]
+        },
+        {
+          "id": "521038",
+          "name": "Whoosh_LargeVerb_ER_SFX_8.wav",
+          "durationMs": 11186,
+          "sizeBytes": 245059,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/521038.mp3",
+          "creator": "Alex_hears_things",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/521038/",
+          "tags": [
+            "air",
+            "long",
+            "soft",
+            "swish",
+            "swoosh",
+            "swosh",
+            "transition",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "511864",
+          "name": "Riser Hit sfx 020.wav",
+          "durationMs": 4270,
+          "sizeBytes": 98515,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511864.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511864/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "510293",
+          "name": "Riser Hit sfx 009.wav",
+          "durationMs": 4133,
+          "sizeBytes": 99141,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/510293.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/510293/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "521048",
+          "name": "Whoosh_StutterMuted_ER_SFX_12.wav",
+          "durationMs": 4458,
+          "sizeBytes": 104335,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/521048.mp3",
+          "creator": "Alex_hears_things",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/521048/",
+          "tags": [
+            "air",
+            "chop",
+            "chopped",
+            "choppy",
+            "long",
+            "soft",
+            "stutter",
+            "swish"
+          ]
+        },
+        {
+          "id": "511859",
+          "name": "Riser Hit sfx 011.wav",
+          "durationMs": 4127,
+          "sizeBytes": 88805,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511859.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511859/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "511857",
+          "name": "Riser Hit sfx 013.wav",
+          "durationMs": 3590,
+          "sizeBytes": 81923,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511857.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511857/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "510292",
+          "name": "Riser Hit sfx 010.wav",
+          "durationMs": 4093,
+          "sizeBytes": 94570,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/510292.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/510292/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "521045",
+          "name": "Whoosh_LargeVerb_ER_SFX_9.wav",
+          "durationMs": 11929,
+          "sizeBytes": 260092,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/521045.mp3",
+          "creator": "Alex_hears_things",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/521045/",
+          "tags": [
+            "air",
+            "long",
+            "soft",
+            "swish",
+            "swoosh",
+            "swosh",
+            "transition",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "511863",
+          "name": "Riser Hit sfx 015.wav",
+          "durationMs": 2008,
+          "sizeBytes": 47953,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511863.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511863/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "521039",
+          "name": "Whoosh_LargeVerb_ER_SFX_7.wav",
+          "durationMs": 11186,
+          "sizeBytes": 244015,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/521039.mp3",
+          "creator": "Alex_hears_things",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/521039/",
+          "tags": [
+            "air",
+            "long",
+            "soft",
+            "swish",
+            "swoosh",
+            "swosh",
+            "transition",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "510245",
+          "name": "Riser Hit sfx 006.wav",
+          "durationMs": 3831,
+          "sizeBytes": 88908,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/510245.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/510245/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "581527",
+          "name": "whoosh_gleb.wav",
+          "durationMs": 1798,
+          "sizeBytes": 42624,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/581527.mp3",
+          "creator": "Glebik_NN",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/581527/",
+          "tags": [
+            "swish",
+            "swoosh",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "510246",
+          "name": "Riser Hit sfx 005.wav",
+          "durationMs": 4090,
+          "sizeBytes": 105416,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/510246.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/510246/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "745443",
+          "name": "Cinematic Woosh SFX-016",
+          "durationMs": 3333,
+          "sizeBytes": 78528,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/745443.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/745443/",
+          "tags": [
+            "bass",
+            "boom",
+            "cinematic",
+            "deep",
+            "effect",
+            "epic",
+            "explosion",
+            "game"
+          ]
+        },
+        {
+          "id": "511866",
+          "name": "Riser Hit sfx 022.wav",
+          "durationMs": 5131,
+          "sizeBytes": 103122,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511866.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511866/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "521052",
+          "name": "Whoosh_StutterMuted_ER_SFX_14.wav",
+          "durationMs": 4458,
+          "sizeBytes": 105482,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/521052.mp3",
+          "creator": "Alex_hears_things",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/521052/",
+          "tags": [
+            "air",
+            "chop",
+            "chopped",
+            "choppy",
+            "long",
+            "soft",
+            "stutter",
+            "swish"
+          ]
+        },
+        {
+          "id": "491321",
+          "name": "air_pod.wav",
+          "durationMs": 4607,
+          "sizeBytes": 105859,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/491321.mp3",
+          "creator": "c.void",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/491321/",
+          "tags": [
+            "air",
+            "airy",
+            "filler",
+            "light",
+            "short",
+            "swoosh",
+            "transition",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "742905",
+          "name": "Woosh - Plastic perforated steak spatula 6",
+          "durationMs": 1059,
+          "sizeBytes": 26208,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/742905.mp3",
+          "creator": "Sadiquecat",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/742905/",
+          "tags": [
+            "Airy",
+            "Fast",
+            "Flying",
+            "Gust",
+            "Movement",
+            "Quick",
+            "Rush",
+            "Rushing"
+          ]
+        },
+        {
+          "id": "511861",
+          "name": "Riser Hit sfx 017.wav",
+          "durationMs": 3045,
+          "sizeBytes": 71799,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511861.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511861/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "511856",
+          "name": "Riser Hit sfx 014.wav",
+          "durationMs": 4066,
+          "sizeBytes": 83374,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511856.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511856/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "737238",
+          "name": "Gritty woosh",
+          "durationMs": 506,
+          "sizeBytes": 13920,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/737238.mp3",
+          "creator": "Sadiquecat",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/737238/",
+          "tags": [
+            "8bit",
+            "Lo-FI",
+            "SFX",
+            "Swing",
+            "Swinging",
+            "Swish",
+            "Whoosh",
+            "Whooshing"
+          ]
+        },
+        {
+          "id": "812688",
+          "name": "Sound Design Elements Whoosh SFX 051",
+          "durationMs": 2383,
+          "sizeBytes": 38160,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/812688.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/812688/",
+          "tags": [
+            "ambient",
+            "audio",
+            "cinematic",
+            "design",
+            "dynamic",
+            "effect",
+            "effects",
+            "element"
+          ]
+        },
+        {
+          "id": "511870",
+          "name": "Riser Hit sfx 023.wav",
+          "durationMs": 2919,
+          "sizeBytes": 61413,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511870.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511870/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "511873",
+          "name": "Riser Hit sfx 026.wav",
+          "durationMs": 4984,
+          "sizeBytes": 111841,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511873.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511873/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "511871",
+          "name": "Riser Hit sfx 028.wav",
+          "durationMs": 4667,
+          "sizeBytes": 105528,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511871.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511871/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "510242",
+          "name": "Riser Hit sfx 001.wav",
+          "durationMs": 4460,
+          "sizeBytes": 105033,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/510242.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/510242/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "812689",
+          "name": "Sound Design Elements Whoosh SFX 052",
+          "durationMs": 2427,
+          "sizeBytes": 39816,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/812689.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/812689/",
+          "tags": [
+            "ambient",
+            "audio",
+            "cinematic",
+            "design",
+            "dynamic",
+            "effect",
+            "effects",
+            "element"
+          ]
+        },
+        {
+          "id": "511860",
+          "name": "Riser Hit sfx 018.wav",
+          "durationMs": 4410,
+          "sizeBytes": 95485,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511860.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511860/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "704396",
+          "name": "swoosh_dong.wav",
+          "durationMs": 16000,
+          "sizeBytes": 356544,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/704396.mp3",
+          "creator": "joedeshon",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/704396/",
+          "tags": [
+            "bell",
+            "bell-tone",
+            "bells",
+            "bong",
+            "chime",
+            "ding",
+            "dong",
+            "podcast"
+          ]
+        },
+        {
+          "id": "510240",
+          "name": "Riser Hit sfx 003.wav",
+          "durationMs": 3765,
+          "sizeBytes": 90159,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/510240.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/510240/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "510239",
+          "name": "Riser Hit sfx 004.wav",
+          "durationMs": 4023,
+          "sizeBytes": 92615,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/510239.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/510239/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "812675",
+          "name": "Sound Design Elements Whoosh SFX 040",
+          "durationMs": 1693,
+          "sizeBytes": 23232,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/812675.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/812675/",
+          "tags": [
+            "ambient",
+            "audio",
+            "cinematic",
+            "design",
+            "dynamic",
+            "effect",
+            "effects",
+            "element"
+          ]
+        },
+        {
+          "id": "511858",
+          "name": "Riser Hit sfx 012.wav",
+          "durationMs": 3915,
+          "sizeBytes": 91522,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511858.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511858/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "234538",
+          "name": "Swoosh 1",
+          "durationMs": 3804,
+          "sizeBytes": 86926,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/234538.mp3",
+          "creator": "Electroviolence",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/234538/",
+          "tags": [
+            "fx",
+            "sfx",
+            "swoosh",
+            "transition",
+            "wet",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "788990",
+          "name": "SWOOSH Sound Effect",
+          "durationMs": 22087,
+          "sizeBytes": 471432,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/788990.mp3",
+          "creator": "Robhog",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/788990/",
+          "tags": [
+            "effect",
+            "fx",
+            "sound",
+            "soundeffect",
+            "swash",
+            "swing",
+            "swish",
+            "swoosh"
+          ]
+        },
+        {
+          "id": "511865",
+          "name": "Riser Hit sfx 019.wav",
+          "durationMs": 3593,
+          "sizeBytes": 77716,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511865.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511865/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "786514",
+          "name": "swoosh_v2",
+          "durationMs": 300,
+          "sizeBytes": 3830,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/786514.mp3",
+          "creator": "migoreng1",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/786514/",
+          "tags": [
+            "sfx",
+            "swoosh",
+            "synthesis",
+            "transition",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "510244",
+          "name": "Riser Hit sfx 007.wav",
+          "durationMs": 7877,
+          "sizeBytes": 185645,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/510244.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/510244/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "521049",
+          "name": "Whoosh_StutterMuted_ER_SFX_11.wav",
+          "durationMs": 5944,
+          "sizeBytes": 133189,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/521049.mp3",
+          "creator": "Alex_hears_things",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/521049/",
+          "tags": [
+            "air",
+            "chop",
+            "chopped",
+            "choppy",
+            "long",
+            "soft",
+            "stutter",
+            "swish"
+          ]
+        },
+        {
+          "id": "511875",
+          "name": "Riser Hit sfx 030.wav",
+          "durationMs": 4223,
+          "sizeBytes": 89950,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511875.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511875/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "511868",
+          "name": "Riser Hit sfx 021.wav",
+          "durationMs": 3944,
+          "sizeBytes": 80140,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/511868.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/511868/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "510243",
+          "name": "Riser Hit sfx 008.wav",
+          "durationMs": 7930,
+          "sizeBytes": 200495,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/510243.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/510243/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "688613",
+          "name": "Long_Swoosh_rhapsodize.wav",
+          "durationMs": 11269,
+          "sizeBytes": 254742,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/688613.mp3",
+          "creator": "rhapsodize",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/688613/",
+          "tags": [
+            "swash",
+            "sweep",
+            "swhish",
+            "swish",
+            "swoosh",
+            "transition",
+            "whoosh"
+          ]
+        },
+        {
+          "id": "812685",
+          "name": "Sound Design Elements Whoosh SFX 048",
+          "durationMs": 2364,
+          "sizeBytes": 37056,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/812685.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/812685/",
+          "tags": [
+            "ambient",
+            "audio",
+            "cinematic",
+            "design",
+            "dynamic",
+            "effect",
+            "effects",
+            "element"
+          ]
+        },
+        {
+          "id": "742999",
+          "name": "Woosh - Ukulele 1 Slow",
+          "durationMs": 377,
+          "sizeBytes": 10512,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/742999.mp3",
+          "creator": "Sadiquecat",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/742999/",
+          "tags": [
+            "air",
+            "edited",
+            "effect",
+            "fast",
+            "one-shot",
+            "oneshot",
+            "processed",
+            "sfx"
+          ]
+        },
+        {
+          "id": "743000",
+          "name": "Woosh - Ukulele 1",
+          "durationMs": 480,
+          "sizeBytes": 13344,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/743000.mp3",
+          "creator": "Sadiquecat",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/743000/",
+          "tags": [
+            "air",
+            "effect",
+            "fast",
+            "one-shot",
+            "oneshot",
+            "sfx",
+            "swash",
+            "swhish"
+          ]
+        },
+        {
+          "id": "521051",
+          "name": "Whoosh_StutterMuted_ER_SFX_15.wav",
+          "durationMs": 5944,
+          "sizeBytes": 132880,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/521051.mp3",
+          "creator": "Alex_hears_things",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/521051/",
+          "tags": [
+            "air",
+            "chop",
+            "chopped",
+            "choppy",
+            "long",
+            "soft",
+            "stutter",
+            "swish"
+          ]
+        },
+        {
+          "id": "521050",
+          "name": "Whoosh_StutterMuted_ER_SFX_13.wav",
+          "durationMs": 5201,
+          "sizeBytes": 115858,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/521050.mp3",
+          "creator": "Alex_hears_things",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/521050/",
+          "tags": [
+            "air",
+            "chop",
+            "chopped",
+            "choppy",
+            "long",
+            "soft",
+            "stutter",
+            "swish"
+          ]
+        },
+        {
+          "id": "510241",
+          "name": "Riser Hit sfx 002.wav",
+          "durationMs": 4467,
+          "sizeBytes": 101092,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/510241.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/510241/",
+          "tags": [
+            "accelerating",
+            "build",
+            "cinematic",
+            "hit",
+            "hybrid",
+            "impact",
+            "implosion",
+            "intro"
+          ]
+        },
+        {
+          "id": "743003",
+          "name": "Woosh - Ukulele 5",
+          "durationMs": 615,
+          "sizeBytes": 15936,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/743003.mp3",
+          "creator": "Sadiquecat",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/743003/",
+          "tags": [
+            "air",
+            "effect",
+            "fast",
+            "one-shot",
+            "oneshot",
+            "sfx",
+            "swash",
+            "swhish"
+          ]
+        },
+        {
+          "id": "812686",
+          "name": "Sound Design Elements Whoosh SFX 049",
+          "durationMs": 2381,
+          "sizeBytes": 37680,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/812686.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/812686/",
+          "tags": [
+            "ambient",
+            "audio",
+            "cinematic",
+            "design",
+            "dynamic",
+            "effect",
+            "effects",
+            "element"
+          ]
+        },
+        {
+          "id": "812684",
+          "name": "Sound Design Elements Whoosh SFX 047",
+          "durationMs": 2263,
+          "sizeBytes": 34368,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/812684.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/812684/",
+          "tags": [
+            "ambient",
+            "audio",
+            "cinematic",
+            "design",
+            "dynamic",
+            "effect",
+            "effects",
+            "element"
+          ]
+        },
+        {
+          "id": "742907",
+          "name": "Woosh - Plastic perforated steak spatula",
+          "durationMs": 463,
+          "sizeBytes": 12768,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/742907.mp3",
+          "creator": "Sadiquecat",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/742907/",
+          "tags": [
+            "Airy",
+            "Fast",
+            "Flying",
+            "Gust",
+            "Movement",
+            "Quick",
+            "Rush",
+            "Rushing"
+          ]
+        },
+        {
+          "id": "812681",
+          "name": "Sound Design Elements Whoosh SFX 044",
+          "durationMs": 2378,
+          "sizeBytes": 41280,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/812681.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/812681/",
+          "tags": [
+            "ambient",
+            "audio",
+            "cinematic",
+            "design",
+            "dynamic",
+            "effect",
+            "effects",
+            "element"
+          ]
+        },
+        {
+          "id": "856168",
+          "name": "Cyberpunk Glitch Hologram Transition Whoosh",
+          "durationMs": 3000,
+          "sizeBytes": 70341,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/856168.mp3",
+          "creator": "brktkrgll",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/856168/",
+          "tags": [
+            "GenAI",
+            "cyberpunk",
+            "digital",
+            "fast",
+            "glitch",
+            "sci-fi",
+            "sfx",
+            "swipe"
+          ]
+        },
+        {
+          "id": "743002",
+          "name": "Woosh - Ukulele 3",
+          "durationMs": 390,
+          "sizeBytes": 9984,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/743002.mp3",
+          "creator": "Sadiquecat",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/743002/",
+          "tags": [
+            "air",
+            "effect",
+            "fast",
+            "one-shot",
+            "oneshot",
+            "sfx",
+            "swash",
+            "swhish"
+          ]
+        },
+        {
+          "id": "812682",
+          "name": "Sound Design Elements Whoosh SFX 045",
+          "durationMs": 2155,
+          "sizeBytes": 31392,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/812682.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/812682/",
+          "tags": [
+            "ambient",
+            "audio",
+            "cinematic",
+            "design",
+            "dynamic",
+            "effect",
+            "effects",
+            "element"
+          ]
+        },
+        {
+          "id": "812683",
+          "name": "Sound Design Elements Whoosh SFX 046",
+          "durationMs": 2376,
+          "sizeBytes": 39216,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/812683.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/812683/",
+          "tags": [
+            "ambient",
+            "audio",
+            "cinematic",
+            "design",
+            "dynamic",
+            "effect",
+            "effects",
+            "element"
+          ]
+        },
+        {
+          "id": "742960",
+          "name": "Woosh - Metal Skimmer 6",
+          "durationMs": 280,
+          "sizeBytes": 8400,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/742960.mp3",
+          "creator": "Sadiquecat",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/742960/",
+          "tags": [
+            "affect",
+            "airy",
+            "edited",
+            "effect",
+            "fast",
+            "fly",
+            "flying",
+            "metal"
+          ]
+        },
+        {
+          "id": "812678",
+          "name": "Sound Design Elements Whoosh SFX 041",
+          "durationMs": 1710,
+          "sizeBytes": 24624,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/812678.mp3",
+          "creator": "AudioPapkin",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/812678/",
+          "tags": [
+            "ambient",
+            "audio",
+            "cinematic",
+            "design",
+            "dynamic",
+            "effect",
+            "effects",
+            "element"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "name": "Impact",
+      "sounds": [
+        {
+          "id": "329516",
+          "name": "Hood Impact",
+          "durationMs": 6688,
+          "sizeBytes": 150528,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/329516.mp3",
+          "creator": "LPA134",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/329516/",
+          "tags": [
+            "Big",
+            "Boom",
+            "Car",
+            "Close",
+            "Door",
+            "Hit",
+            "Hood",
+            "Impact"
+          ]
+        },
+        {
+          "id": "702245",
+          "name": "GUNArtl_69thFieldArtilleryGun01_InMotionAudio_FREESampleSunday.wav",
+          "durationMs": 2133,
+          "sizeBytes": 38832,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/702245.mp3",
+          "creator": "InMotionAudio",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/702245/",
+          "tags": [
+            "Artillery",
+            "GUNArtl",
+            "Gun"
+          ]
+        },
+        {
+          "id": "340509",
+          "name": "Van_Door_Slam_Closed.wav",
+          "durationMs": 1911,
+          "sizeBytes": 49824,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/340509.mp3",
+          "creator": "mickyman5000",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/340509/",
+          "tags": [
+            "Bang",
+            "Boom",
+            "Crash",
+            "Friction",
+            "Hit",
+            "Impact",
+            "Metal",
+            "Plastic"
+          ]
+        },
+        {
+          "id": "340598",
+          "name": "Metallic_Slamming_Heavy_Many.wav",
+          "durationMs": 4694,
+          "sizeBytes": 114768,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/340598.mp3",
+          "creator": "mickyman5000",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/340598/",
+          "tags": [
+            "Bang",
+            "Boom",
+            "Crash",
+            "Friction",
+            "Hit",
+            "Impact",
+            "Metal",
+            "Plastic"
+          ]
+        },
+        {
+          "id": "340530",
+          "name": "Metallic_Slamming_Many.wav",
+          "durationMs": 4710,
+          "sizeBytes": 112800,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/340530.mp3",
+          "creator": "mickyman5000",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/340530/",
+          "tags": [
+            "Bang",
+            "Boom",
+            "Crash",
+            "Friction",
+            "Hit",
+            "Impact",
+            "Metal",
+            "Plastic"
+          ]
+        },
+        {
+          "id": "340565",
+          "name": "Metallic_Slamming_Many_2.wav",
+          "durationMs": 3920,
+          "sizeBytes": 95568,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/340565.mp3",
+          "creator": "mickyman5000",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/340565/",
+          "tags": [
+            "Bang",
+            "Boom",
+            "Crash",
+            "Friction",
+            "Hit",
+            "Impact",
+            "Metal",
+            "Plastic"
+          ]
+        },
+        {
+          "id": "856795",
+          "name": "Bass Impact - Deep Hit - Rumble - Cinematic Boom v3 alt compressor",
+          "durationMs": 10500,
+          "sizeBytes": 261255,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/856795.mp3",
+          "creator": "_earthbound_",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/856795/",
+          "tags": [
+            "bassimpact",
+            "boom",
+            "detonation",
+            "explosive",
+            "slam"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ui",
+      "name": "UI",
+      "sounds": [
+        {
+          "id": "215415",
+          "name": "Ping!",
+          "durationMs": 6041,
+          "sizeBytes": 127344,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/215415.mp3",
+          "creator": "unfa",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/215415/",
+          "tags": [
+            "GUI",
+            "LMMS",
+            "UI",
+            "application",
+            "beep",
+            "bleep",
+            "blip",
+            "bootup"
+          ]
+        },
+        {
+          "id": "658266",
+          "name": "Retro Inspect Sound, UI, or In-Game Notification.wav",
+          "durationMs": 782,
+          "sizeBytes": 16382,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/658266.mp3",
+          "creator": "LilMati",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/658266/",
+          "tags": [
+            "App",
+            "Beep",
+            "Blip",
+            "Button",
+            "Casino",
+            "Click",
+            "Film",
+            "Game"
+          ]
+        },
+        {
+          "id": "657947",
+          "name": "Horror Inspect Sound, UI, or In-Game Notification 01.wav",
+          "durationMs": 3187,
+          "sizeBytes": 73673,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/657947.mp3",
+          "creator": "LilMati",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/657947/",
+          "tags": [
+            "App",
+            "Beep",
+            "Bleep",
+            "Blip",
+            "Button",
+            "Casino",
+            "Click",
+            "Film"
+          ]
+        },
+        {
+          "id": "657945",
+          "name": "SciFi Inspect Sound, UI, or In-Game Notification 01.wav",
+          "durationMs": 1318,
+          "sizeBytes": 30158,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/657945.mp3",
+          "creator": "LilMati",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/657945/",
+          "tags": [
+            "App",
+            "Beep",
+            "Bleep",
+            "Blip",
+            "Button",
+            "Casino",
+            "Click",
+            "Film"
+          ]
+        },
+        {
+          "id": "702805",
+          "name": "Futuristic Inspect Sound, UI, or In-Game Notification.wav",
+          "durationMs": 772,
+          "sizeBytes": 16992,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/702805.mp3",
+          "creator": "LilMati",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/702805/",
+          "tags": [
+            "App",
+            "Beep",
+            "Bleep",
+            "Blip",
+            "Button",
+            "Casino",
+            "Click",
+            "Film"
+          ]
+        },
+        {
+          "id": "350862",
+          "name": "Blip_C_04",
+          "durationMs": 132,
+          "sizeBytes": 3860,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/350862.mp3",
+          "creator": "cabled_mess",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/350862/",
+          "tags": [
+            "8-bit",
+            "80s",
+            "abstract",
+            "alert",
+            "app",
+            "application",
+            "beep",
+            "bleep"
+          ]
+        },
+        {
+          "id": "657950",
+          "name": "SciFi Inspect Sound, UI, or In-Game Notification 02.wav",
+          "durationMs": 2470,
+          "sizeBytes": 58439,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/657950.mp3",
+          "creator": "LilMati",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/657950/",
+          "tags": [
+            "App",
+            "Beep",
+            "Blip",
+            "Button",
+            "Casino",
+            "Click",
+            "Film",
+            "Game"
+          ]
+        },
+        {
+          "id": "657946",
+          "name": "Horror Inspect Sound, UI, or In-Game Notification 02.wav",
+          "durationMs": 2381,
+          "sizeBytes": 56665,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/657946.mp3",
+          "creator": "LilMati",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/657946/",
+          "tags": [
+            "App",
+            "Beep",
+            "Bleep",
+            "Blip",
+            "Button",
+            "Casino",
+            "Click",
+            "Film"
+          ]
+        },
+        {
+          "id": "350864",
+          "name": "Blip_C_02",
+          "durationMs": 183,
+          "sizeBytes": 7097,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/350864.mp3",
+          "creator": "cabled_mess",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/350864/",
+          "tags": [
+            "8-bit",
+            "80s",
+            "abstract",
+            "alert",
+            "app",
+            "application",
+            "beep",
+            "bleep"
+          ]
+        },
+        {
+          "id": "350859",
+          "name": "Blip_C_09",
+          "durationMs": 115,
+          "sizeBytes": 5114,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/350859.mp3",
+          "creator": "cabled_mess",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/350859/",
+          "tags": [
+            "8-bit",
+            "80s",
+            "abstract",
+            "alert",
+            "app",
+            "application",
+            "beep",
+            "bleep"
+          ]
+        },
+        {
+          "id": "350863",
+          "name": "Blip_C_03",
+          "durationMs": 147,
+          "sizeBytes": 6524,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/350863.mp3",
+          "creator": "cabled_mess",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/350863/",
+          "tags": [
+            "8-bit",
+            "80s",
+            "abstract",
+            "alert",
+            "app",
+            "application",
+            "beep",
+            "bleep"
+          ]
+        },
+        {
+          "id": "350865",
+          "name": "Blip_C_01",
+          "durationMs": 183,
+          "sizeBytes": 6784,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/350865.mp3",
+          "creator": "cabled_mess",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/350865/",
+          "tags": [
+            "8-bit",
+            "80s",
+            "abstract",
+            "alert",
+            "app",
+            "application",
+            "beep",
+            "bleep"
+          ]
+        },
+        {
+          "id": "350860",
+          "name": "Blip_C_07",
+          "durationMs": 300,
+          "sizeBytes": 9551,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/350860.mp3",
+          "creator": "cabled_mess",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/350860/",
+          "tags": [
+            "8-bit",
+            "80s",
+            "abstract",
+            "alert",
+            "app",
+            "application",
+            "beep",
+            "bleep"
+          ]
+        },
+        {
+          "id": "350861",
+          "name": "Blip_C_08",
+          "durationMs": 300,
+          "sizeBytes": 9654,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/350861.mp3",
+          "creator": "cabled_mess",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/350861/",
+          "tags": [
+            "8-bit",
+            "80s",
+            "abstract",
+            "alert",
+            "app",
+            "application",
+            "beep",
+            "bleep"
+          ]
+        },
+        {
+          "id": "521850",
+          "name": "alert1 : (maximum distortion)",
+          "durationMs": 6610,
+          "sizeBytes": 155697,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/521850.mp3",
+          "creator": "Tissman",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/521850/",
+          "tags": [
+            "alert",
+            "app",
+            "beep",
+            "beeps",
+            "bleeps",
+            "computer",
+            "design",
+            "game"
+          ]
+        },
+        {
+          "id": "521849",
+          "name": "alert1 : (50% distortion)",
+          "durationMs": 6610,
+          "sizeBytes": 149250,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/521849.mp3",
+          "creator": "Tissman",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/521849/",
+          "tags": [
+            "alert",
+            "app",
+            "beep",
+            "beeps",
+            "bleeps",
+            "computer",
+            "design",
+            "game"
+          ]
+        },
+        {
+          "id": "521848",
+          "name": "alert1 : (no distortion)",
+          "durationMs": 6610,
+          "sizeBytes": 141377,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/521848.mp3",
+          "creator": "Tissman",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/521848/",
+          "tags": [
+            "alert",
+            "app",
+            "beep",
+            "beeps",
+            "bleeps",
+            "computer",
+            "design",
+            "game"
+          ]
+        },
+        {
+          "id": "522199",
+          "name": "hightech_notification1",
+          "durationMs": 1479,
+          "sizeBytes": 25851,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/522199.mp3",
+          "creator": "Tissman",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/522199/",
+          "tags": [
+            "alert",
+            "android",
+            "application",
+            "artificial-inteligence",
+            "beep",
+            "command",
+            "computer",
+            "cyberpunk"
+          ]
+        },
+        {
+          "id": "522196",
+          "name": "hightech_notification4",
+          "durationMs": 1404,
+          "sizeBytes": 25903,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/522196.mp3",
+          "creator": "Tissman",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/522196/",
+          "tags": [
+            "alert",
+            "android",
+            "application",
+            "artificial-inteligence",
+            "beep",
+            "command",
+            "computer",
+            "cyberpunk"
+          ]
+        },
+        {
+          "id": "522197",
+          "name": "hightech_notification3",
+          "durationMs": 1565,
+          "sizeBytes": 31517,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/522197.mp3",
+          "creator": "Tissman",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/522197/",
+          "tags": [
+            "alert",
+            "android",
+            "application",
+            "artificial-inteligence",
+            "beep",
+            "command",
+            "computer",
+            "cyberpunk"
+          ]
+        },
+        {
+          "id": "522198",
+          "name": "hightech_notification2",
+          "durationMs": 1948,
+          "sizeBytes": 37200,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/522198.mp3",
+          "creator": "Tissman",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/522198/",
+          "tags": [
+            "alert",
+            "android",
+            "application",
+            "artificial-inteligence",
+            "beep",
+            "command",
+            "computer",
+            "cyberpunk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ambience",
+      "name": "Ambience",
+      "sounds": [
+        {
+          "id": "329533",
+          "name": "Room Tone In An Apartment Living Room 2",
+          "durationMs": 17307,
+          "sizeBytes": 387852,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/329533.mp3",
+          "creator": "leonelmail",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/329533/",
+          "tags": [
+            "ambiance",
+            "ambience",
+            "ambient",
+            "apartment",
+            "atmosphere",
+            "background",
+            "background-sound",
+            "department"
+          ]
+        },
+        {
+          "id": "379925",
+          "name": "room tone night ambience rumble cricket .wav",
+          "durationMs": 24326,
+          "sizeBytes": 466656,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/379925.mp3",
+          "creator": "The_Sound_Side",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/379925/",
+          "tags": [
+            "ambiance",
+            "ambience",
+            "atmos",
+            "atmosphere",
+            "cricket",
+            "general-noise",
+            "night",
+            "room"
+          ]
+        },
+        {
+          "id": "148906",
+          "name": "A/C Hum.aif",
+          "durationMs": 20000,
+          "sizeBytes": 373272,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/148906.mp3",
+          "creator": "timgormly",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/148906/",
+          "tags": [
+            "AC",
+            "Air",
+            "Air-Conditioner",
+            "Ambience",
+            "Atmosphere",
+            "Conditioner",
+            "H4n",
+            "Room"
+          ]
+        },
+        {
+          "id": "619320",
+          "name": "Facility Hum Ambience Loopable",
+          "durationMs": 7040,
+          "sizeBytes": 167360,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/619320.mp3",
+          "creator": "aSuperiorPotato",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/619320/",
+          "tags": [
+            "ambiance",
+            "ambience",
+            "ambient",
+            "atmosphere",
+            "background",
+            "background-sound",
+            "drone",
+            "engine"
+          ]
+        },
+        {
+          "id": "249595",
+          "name": "Distorted Ambience.wav",
+          "durationMs": 24000,
+          "sizeBytes": 531561,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/249595.mp3",
+          "creator": "staticpony1",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/249595/",
+          "tags": [
+            "Ambience",
+            "Atmosphere",
+            "City",
+            "Country",
+            "Distant",
+            "Free",
+            "Indoors",
+            "Industrial"
+          ]
+        },
+        {
+          "id": "389769",
+          "name": "room tone with washer spin cycle.wav",
+          "durationMs": 26075,
+          "sizeBytes": 494832,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/389769.mp3",
+          "creator": "buzbe20",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/389769/",
+          "tags": [
+            "Ambience",
+            "Atmosphere",
+            "Background",
+            "Room",
+            "Spin",
+            "Washer",
+            "cycle",
+            "machine"
+          ]
+        },
+        {
+          "id": "249598",
+          "name": "Metal chord clang.wav",
+          "durationMs": 12632,
+          "sizeBytes": 275174,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/249598.mp3",
+          "creator": "staticpony1",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/249598/",
+          "tags": [
+            "Ambience",
+            "Atmosphere",
+            "Cathedral",
+            "City",
+            "Ciudad-de-Mexico",
+            "DF",
+            "Free",
+            "Freezer"
+          ]
+        },
+        {
+          "id": "249599",
+          "name": "Mist pipe.wav",
+          "durationMs": 23250,
+          "sizeBytes": 498456,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/249599.mp3",
+          "creator": "staticpony1",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/249599/",
+          "tags": [
+            "Ambience",
+            "Atmosphere",
+            "City",
+            "Distant",
+            "Free",
+            "Indoors",
+            "Industrial",
+            "Motorway"
+          ]
+        },
+        {
+          "id": "801116",
+          "name": "Cold Hallway Ambience",
+          "durationMs": 13292,
+          "sizeBytes": 302536,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/801116.mp3",
+          "creator": "9voltplasma",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/801116/",
+          "tags": [
+            "ambience",
+            "atmos",
+            "atmosphere",
+            "background",
+            "background-sound",
+            "cold",
+            "creepy",
+            "dark"
+          ]
+        },
+        {
+          "id": "481998",
+          "name": "multiple fans highpass.wav",
+          "durationMs": 13429,
+          "sizeBytes": 310441,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/481998.mp3",
+          "creator": "Saltbearer",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/481998/",
+          "tags": [
+            "air",
+            "ambience",
+            "atmosphere",
+            "blowing",
+            "desk-fan",
+            "drone",
+            "fan",
+            "filtered"
+          ]
+        },
+        {
+          "id": "561365",
+          "name": "Phòng Điều Khiển ĐaLek 0",
+          "durationMs": 10000,
+          "sizeBytes": 98969,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/561365.mp3",
+          "creator": "SieuAmThanh",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/561365/",
+          "tags": [
+            "ambience",
+            "atmosphere",
+            "dalek",
+            "electronic",
+            "room",
+            "sci-fi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foley",
+      "name": "Foley",
+      "sounds": [
+        {
+          "id": "805470",
+          "name": "Harness Armour straps - Baldric or military equipment",
+          "durationMs": 17290,
+          "sizeBytes": 438576,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/805470.mp3",
+          "creator": "Vrymaa",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/805470/",
+          "tags": [
+            "armor",
+            "armour",
+            "army",
+            "baldric",
+            "cling",
+            "equipment",
+            "escalade",
+            "feet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "name": "Nature",
+      "sounds": [
+        {
+          "id": "524511",
+          "name": "Water Splash in Lake 01.wav",
+          "durationMs": 6000,
+          "sizeBytes": 109296,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/524511.mp3",
+          "creator": "vero.marengere",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/524511/",
+          "tags": [
+            "ambiance",
+            "ambience",
+            "ambient",
+            "birds",
+            "field-recording",
+            "lake",
+            "nature",
+            "rain"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "applause",
+      "name": "Applause",
+      "sounds": [
+        {
+          "id": "397034",
+          "name": "Crowd laughing and clapping inside a bar in Chile (Valparaiso)",
+          "durationMs": 8960,
+          "sizeBytes": 213216,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/397034.mp3",
+          "creator": "felix.blume",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/397034/",
+          "tags": [
+            "applaud",
+            "applauding",
+            "applause",
+            "audience",
+            "bar",
+            "blume",
+            "cheer",
+            "cheering"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glitch",
+      "name": "Glitch",
+      "sounds": [
+        {
+          "id": "864200",
+          "name": "SYS_glitched_undo",
+          "durationMs": 180,
+          "sizeBytes": 7392,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/864200.mp3",
+          "creator": "MirMaximus",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/864200/",
+          "tags": [
+            "bug",
+            "button",
+            "click",
+            "damage",
+            "digital",
+            "error",
+            "fatal",
+            "fx"
+          ]
+        },
+        {
+          "id": "864199",
+          "name": "SYS_glitched_select",
+          "durationMs": 298,
+          "sizeBytes": 9960,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/864199.mp3",
+          "creator": "MirMaximus",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/864199/",
+          "tags": [
+            "bug",
+            "button",
+            "click",
+            "confirm",
+            "damage",
+            "digital",
+            "error",
+            "fatal"
+          ]
+        },
+        {
+          "id": "864195",
+          "name": "SFX_ripping1",
+          "durationMs": 380,
+          "sizeBytes": 12288,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/864195.mp3",
+          "creator": "MirMaximus",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/864195/",
+          "tags": [
+            "bug",
+            "damage",
+            "digital",
+            "error",
+            "fatal",
+            "fx",
+            "game-sfx",
+            "glitch"
+          ]
+        },
+        {
+          "id": "864190",
+          "name": "SFX_error1",
+          "durationMs": 653,
+          "sizeBytes": 18048,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/864190.mp3",
+          "creator": "MirMaximus",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/864190/",
+          "tags": [
+            "bug",
+            "damage",
+            "digital",
+            "error",
+            "fatal",
+            "fx",
+            "game-sfx",
+            "glitch"
+          ]
+        },
+        {
+          "id": "864191",
+          "name": "SFX_error2",
+          "durationMs": 490,
+          "sizeBytes": 15312,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/864191.mp3",
+          "creator": "MirMaximus",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/864191/",
+          "tags": [
+            "bug",
+            "damage",
+            "digital",
+            "error",
+            "fatal",
+            "fx",
+            "game-sfx",
+            "glitch"
+          ]
+        },
+        {
+          "id": "864185",
+          "name": "SFX_Damage_Glitch_3",
+          "durationMs": 895,
+          "sizeBytes": 25632,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/864185.mp3",
+          "creator": "MirMaximus",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/864185/",
+          "tags": [
+            "bug",
+            "damage",
+            "digital",
+            "error",
+            "fatal",
+            "fx",
+            "game-sfx",
+            "glitch"
+          ]
+        },
+        {
+          "id": "864198",
+          "name": "SYS_glitched_apply",
+          "durationMs": 242,
+          "sizeBytes": 10176,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/864198.mp3",
+          "creator": "MirMaximus",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/864198/",
+          "tags": [
+            "bug",
+            "button",
+            "click",
+            "confirm",
+            "damage",
+            "digital",
+            "error",
+            "fatal"
+          ]
+        },
+        {
+          "id": "864183",
+          "name": "SFX_Damage_Glitch_1",
+          "durationMs": 876,
+          "sizeBytes": 25872,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/864183.mp3",
+          "creator": "MirMaximus",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/864183/",
+          "tags": [
+            "bug",
+            "damage",
+            "digital",
+            "error",
+            "fatal",
+            "fx",
+            "game-sfx",
+            "glitch"
+          ]
+        },
+        {
+          "id": "864194",
+          "name": "SFX_melting_interference",
+          "durationMs": 5480,
+          "sizeBytes": 145512,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/864194.mp3",
+          "creator": "MirMaximus",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/864194/",
+          "tags": [
+            "bug",
+            "damage",
+            "digital",
+            "error",
+            "fatal",
+            "fx",
+            "game-sfx",
+            "glitch"
+          ]
+        },
+        {
+          "id": "864184",
+          "name": "SFX_Damage_Glitch_2",
+          "durationMs": 465,
+          "sizeBytes": 16224,
+          "url": "https://brytamegbor.github.io/video-editor/sfx/audio/864184.mp3",
+          "creator": "MirMaximus",
+          "license": "CC0 1.0",
+          "sourceUrl": "https://freesound.org/s/864184/",
+          "tags": [
+            "bug",
+            "damage",
+            "digital",
+            "error",
+            "fatal",
+            "fx",
+            "game-sfx",
+            "glitch"
+          ]
+        }
+      ]
+    }
+  ]
+}
