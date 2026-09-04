@@ -28,7 +28,7 @@ struct EffectUniforms {
 };
 
 constant float PI = 3.14159265358979323846;
-constant float TILE_WIDTH  = 0.45; // relative tile width; smaller = thinner columns
+constant float TILE_WIDTH  = 0.35; // relative tile width; smaller = thinner columns
 constant float TILE_HEIGHT = 0.6;  // relative tile height; smaller = shorter rows
 
 inline float mapRange(float value, float low1, float high1, float low2, float high2) {
